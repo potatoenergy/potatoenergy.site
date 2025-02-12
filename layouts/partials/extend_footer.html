@@ -1,0 +1,120 @@
+<style>
+  .snow {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .snow__flake {
+    position: absolute;
+    color: #c1dcec;
+    animation: snowfall 15s linear infinite, fadeInOut 5s ease-in-out;
+    will-change: transform, opacity;
+    font-size: 1em;
+    left: 0;
+    right: 0;
+    top: -2em;
+    opacity: 0;
+  }
+
+  @keyframes snowfall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(calc(100vh + 2em));
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .snowdrift {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: linear-gradient(
+      to right,
+      rgba(193, 222, 236, 0.8),
+      rgba(193, 222, 236, 0.6),
+      rgba(193, 222, 236, 0.8)
+    );
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    background-repeat: repeat-x;
+    opacity: 0.8;
+    transition: height 15s ease, background-position 15s ease,
+      transform 15s ease;
+  }
+</style>
+
+<div class="snow"></div>
+<div class="snowdrift"></div>
+
+<script type="text/javascript">
+  const snow = document.querySelector(".snow");
+  const snowdrift = document.querySelector(".snowdrift");
+  let snowflakeCount = 0;
+
+  function getRndFloat(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  const createSnowflake = () => {
+    const snowflake = document.createElement("div");
+    snowflake.classList.add("snow__flake");
+    snowflake.textContent = "﹡";
+    snowflake.style.fontSize = `${getRndFloat(0.7, 1.5)}em`;
+    snowflake.style.animationDelay = `${getRndInteger(0, 10)}s`;
+    snowflake.style.left = `${getRndInteger(0, window.innerWidth)}px`;
+    snowflake.style.top = `${getRndInteger(0, window.innerHeight)}px`;
+    snow.appendChild(snowflake);
+    snowflake.addEventListener("animationend", () => {
+      snowflakeCount++;
+      updateSnowdrift();
+      snowflake.remove();
+    });
+  };
+
+  const updateSnowdrift = () => {
+    const snowdriftHeight = Math.min(snowflakeCount * 2, 100);
+    snowdrift.style.height = `${snowdriftHeight}px`;
+    snowdrift.style.backgroundPosition = `${window.pageYOffset * 0.5}% 50%`;
+    snowdrift.style.transform = `translateY(${
+      window.pageYOffset + 100 - snowdriftHeight
+    }px)`;
+  };
+
+  const initSnowfall = () => {
+    setInterval(() => {
+      const totalSnowflakes = getRndInteger(2, 10);
+      for (let i = 0; i < totalSnowflakes; i++) {
+        createSnowflake();
+      }
+    }, 1000);
+  };
+
+  window.addEventListener("load", initSnowfall);
+  window.addEventListener("scroll", updateSnowdrift);
+</script> 

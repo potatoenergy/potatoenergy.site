@@ -1,0 +1,45 @@
+{{- /* You can add your own layouts/comments.html to override this file */ -}}
+
+{{- $page := . -}}
+{{- with site.Params.commentSystems.remark42 -}}
+  {{- if .host -}}
+    <script>
+      var remark_config = {
+        host: '{{ .host }}',
+        site_id: '{{ .site_id | default "remark" }}',
+        url: '{{ $.Page.Permalink }}',
+        // url: '{{ .url | default (printf "%s%s" .Page.Site.BaseURL .Page.Permalink) }}',
+        components: {{ .components | default "['embed']" }},
+        max_shown_comments: {{ .max_shown_comments | default 15 }},
+        theme: localStorage.getItem("pref-theme") || '{{ .theme | default "light" }}',
+        page_title: '{{ .page_title | default .Page.Title }}',
+        locale: '{{ .locale | default .Lang }}', // TODO: Автоматизировать смену языка в зависимости от выбранной
+        show_email_subscription: {{ .show_email_subscription | default true }},
+        show_rss_subscription: {{ .show_rss_subscription | default true }},
+        simple_view: {{ .simple_view | default false }},
+        no_footer: {{ .no_footer | default false }}
+      }
+    </script>
+
+    <script>
+      !function(components, document) {
+        for (var i = 0; i < components.length; i++) {
+          var script = document.createElement("script"),
+              fileExtension = ".js",
+              target = document.head || document.body;
+
+          if ("noModule" in script) {
+            script.type = "module";
+            fileExtension = ".mjs";
+          }
+          script.async = true;
+          script.defer = true;
+          script.src = remark_config.host + "/web/" + components[i] + fileExtension;
+          target.appendChild(script);
+        }
+      }(remark_config.components || ["embed"], document);
+    </script>
+
+    <div id="remark42"></div>
+  {{- end -}}
+{{- end -}}
