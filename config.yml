@@ -1,12 +1,13 @@
 ---
+ignoreLogs: ['warning-partial-superfluous-prefix']
 baseURL: https://potatoenergy.ru/
 buildDrafts: true
 buildExpired: false
 buildFuture: false
-disableKinds: ['404']
+copyright: © 2023-2025 **[Potato Energy Team](https://potatoenergy.ru/)**
 defaultContentLanguage: ru
+disableKinds: ['404']
 enableEmoji: true
-copyright: '© 2023-2024 **[Potato Energy Team](https://potatoenergy.ru/)**'
 enableInlineShortcodes: true
 enableRobotsTXT: true
 languages:
@@ -14,47 +15,51 @@ languages:
     languageName: ':uk:'
     menu:
       main:
+        - name: Status
+          params:
+            external: true
+          url: https://status.potatoenergy.ru/
+          weight: 90
         - name: Grafana
           params:
             external: true
-          url: https://grafana.potatoenergy.ru/
+          url: https://potatoenergy.ru/grafana/
         - name: AI
           params:
             external: true
-          url: https://oi.potatoenergy.ru/
+          url: https://chat.potatoenergy.ru/
           weight: 5
-        - name: Nextcloud                         
-          params:                              
-            external: true                    
-          url: https://cloud.potatoenergy.ru/                                                                                                                             
-        - name: Mastodon                                                                                                                             
-          params:                                                                                                                                  
-            external: true                                                                                                                          
+        - name: Nextcloud
+          params:
+            external: true
+          url: https://cloud.potatoenergy.ru/
+        - name: Mastodon
+          params:
+            external: true
           url: https://social.potatoenergy.ru/
         - name: Search
-          url: en/search/
+          url: search
+          weight: 1
+        - name: Blog
+          url: blog
           weight: 3
-        #   weight: 1
-        # - name: Blog
-        #   url: posts/
-        #   weight: 7
-        # - name: Login
-        #   params:
-        #     external: true
-        #   url: https://auth.potatoenergy.ru/
-        #   weight: 7
+        - name: Login
+          params:
+            external: true
+          url: https://auth.potatoenergy.ru/
+          weight: 99
     params:
       profileMode:
-        imageUrl: images/icon.png
-        imageTitle: "Potato Energy Logo"
         buttons:
-          - name: Blog
-            url: "/blog"
+          - name: Services
+            url: services
           - name: News
-            url: "/news"
+            url: news
           - name: Team
-            url: "/team"
+            url: team
         enabled: true
+        imageTitle: Potato Energy Logo
+        imageUrl: images/icon.png
         subtitle: >
           🥔 **potatoenergy** is a team of inventors and pioneers, boldly going down new roads, while never forgetting the roots of their success - *potatoes*.  
 
@@ -64,7 +69,8 @@ languages:
 
           Together **they** boldly make a step forward, helping many to improve and simplify their lives.  
 
-        title: Potato Energy
+        title: >
+          Potato Energy
       title: English
     taxonomies:
       category: categories
@@ -75,57 +81,59 @@ languages:
     languageName: ':ru:'
     menu:
       main:
+        - name: Статус
+          params:
+            external: true
+          url: https://status.potatoenergy.ru/
+          weight: 90
         - name: Grafana
           params:
             external: true
-          url: https://grafana.potatoenergy.ru/
+          url: https://potatoenergy.ru/grafana/
         - name: ИИ
           params:
             external: true
-          url: https://oi.potatoenergy.ru/
+          url: https://chat.potatoenergy.ru/
           weight: 5
-        - name: Nextcloud                         
-          params:                              
-            external: true                    
+        - name: Nextcloud
+          params:
+            external: true
           url: https://cloud.potatoenergy.ru/
-        - name: Mastodon                    
-          params:                           
-            external: true                                                                                                                         
-          url: https://social.potatoenergy.ru/                                                                                                     
+        - name: Mastodon
+          params:
+            external: true
+          url: https://social.potatoenergy.ru/
         - name: Поиск
-          url: search/
+          url: search
+          weight: 1
+        - name: Блог
+          url: blog
           weight: 3
-        #   weight: 1
-        # - name: Блог
-        #   url: ru/posts/
-        #   weight: 7
-        # - name: Вход
-        #   params:
-        #     external: true
-        #   url: https://auth.potatoenergy.ru/
-        #   weight: 7
+        - name: Вход
+          params:
+            external: true
+          url: https://auth.potatoenergy.ru/
+          weight: 99
     params:
       profileMode:
-        imageUrl: images/icon.png
-        imageTitle: "Potato Energy Logo"
         buttons:
-          - name: Блог
-            url: "/blog"
+          - name: Сервисы
+            url: services
           - name: Новости
-            url: "/news"
+            url: news
           - name: Команда
-            url: "/team"
+            url: team
         enabled: true
-        subtitle: >
-          🥔 **potatoenergy** - это команда изобретателей и первопроходцев, смело идущих по новым дорогам, при этом никогда не забывая о корнях своего успеха - *картофеле*.  
+        imageTitle: Potato Energy Logo
+        imageUrl: images/icon.png
+        subtitle: >  
+          🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации  
 
-          **Они** настоящие творцы, постоянно пробующие новые идеи, открывающие новые горизонты в мире IT и с помощью простых, но мощных инструментов власти смотрящие на мир с другой стороны.  
-
-          **Они** команда экспериментаторов, которые не боятся рисковать и благодаря этому достигают новых высот в разработке высокотехнологичных продуктов.  
-
-          Вместе **они** смело делают шаг вперед, помогая многим улучшить и упростить свою жизнь.  
-
-        title: Картофельная Энергия
+          *"Потому что даже космические технологии начинаются с земного картофеля"*  
+          
+          (🕒 Ежедневно с 08:00 по 00:00)
+        title: >
+          Картофельная Энергия  
       title: Русский
     taxonomies:
       category: categories
@@ -146,33 +154,9 @@ outputs:
     - HTML
     - RSS
     - JSON
-paginate: 5
+pagination:
+  pagerSize: 5
 params:
-  logo:
-    text: "Potato Energy"
-    iconHeight: 35
-    icon: images/icon.png
-  assets:
-    favicon: "favicon.ico"
-    favicon16x16: "favicon-16x16.png"
-    favicon32x32: "favicon-32x32.png"
-    apple_touch_icon: "apple-touch-icon.png"
-  commentSystems:
-    remark42:
-      host: "https://remark42.potatoenergy.ru"
-      site_id: "potatoenergy"
-      components: ["embed", "last-comments"]
-      max_shown_comments: 15
-      # theme: "dark"
-      locale: "ru"
-      show_email_subscription: false
-      show_rss_subscription: true
-      simple_view: true
-      no_footer: false
-    # telegramWidget:
-    #   channel: potatoenergy
-    #   accentColor: "424242"
-    #   limit: 20
   EnableImageZoom: true
   EnableInstantClick: true
   ShowAllPagesInArchive: true
@@ -186,15 +170,31 @@ params:
   ShowToc: true
   ShowWordCount: true
   TocOpen: true
-  TocSide: "right"
+  TocSide: right
+  social:
+    fediverse_creator: "@ponfertato@potatoenergy.ru"
   analytics:
-    # google:
-    #   SiteVerificationTag: "G-BGZ8M8M6HN"
     yandex:
       SiteVerificationTag: '94077410'
   assets:
+    apple_touch_icon: apple-touch-icon.png
     disableHLJS: true
+    favicon: favicon.ico
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
   author: ["Potato Energy"]
+  commentSystems:
+    remark42:
+      components: ["embed", "last-comments"]
+      host: https://potatoenergy.ru/remark42
+      locale: ru
+      max_shown_comments: 15
+      no_footer: false
+      show_email_subscription: false
+      show_rss_subscription: true
+      simple_view: true
+      site_id: potatoenergy
+      theme: dark
   comments: true
   dateFormat: 02 Jan 2006
   defaultTheme: auto
@@ -203,7 +203,6 @@ params:
   disableThemeToggle: false
   displayFullLangName: true
   env: production
-  useCustomAnalytics: false
   fuseOpts:
     distance: 1000
     isCaseSensitive: false
@@ -213,6 +212,10 @@ params:
     shouldSort: true
     threshold: 0.4
   images: ["images/papermod-cover.png"]
+  logo:
+    icon: images/icon.png
+    iconHeight: 35
+    text: Potato Energy
   socialIcons:
     - name: discord
       title: Join us on Discord
@@ -225,7 +228,7 @@ params:
       url: https://steamcommunity.com/groups/potatoenergy
     - name: matrix
       title: Join us on Matrix
-      url: "https://matrix.to/#/#potatoenergy:matrix.org"
+      url: https://matrix.to/#/#potatoenergy:matrix.org
     - name: codeberg
       title: View Source on Codeberg
       url: https://codeberg.org/potatoenergy
@@ -240,20 +243,7 @@ params:
     - name: rss
       title: RSS
       url: index.xml
-  telegram:
-    color: '424242'
-    # dislikes: "1"
-    # outlined: "1"
-    colorful: '1'
-    dark: ''
-    height: ''
-    # siteID: "MuInl2vL"
-    limit: 5
+  useCustomAnalytics: false
 pygmentsUseClasses: true
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
 theme: ["PaperMod"]
 title: Potato Energy
