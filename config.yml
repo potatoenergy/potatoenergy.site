@@ -242,5 +242,6 @@ params:
       url: index.xml
   useCustomAnalytics: false
 pygmentsUseClasses: true
-theme: ["PaperMod"]
+theme:
+  - PaperMod
 title: Potato Energy
