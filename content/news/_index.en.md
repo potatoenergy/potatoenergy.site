@@ -6,7 +6,7 @@ title: "Potato Energy News"
 ### Evolution in every update 🚀
 
 **Future Plans** 
-``bash''
+```bash
 - August 2026: Migration to PostgreSQL 16
 - December 2026: Implement Kubernetes cluster
 - October 2027: Launch Potato Energy App

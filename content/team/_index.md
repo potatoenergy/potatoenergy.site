@@ -44,5 +44,6 @@ title: "Команда Картофельной Энергии"
 - Ежемесячные демо-дни
 - Полная прозрачность процессов
 ```
+
 > **Присоединяйтесь к нам:**  
 > [Codeberg](https://codeberg.org/potatoenergy) | [GitHub](https://github.com/potatoenergy) <!-- | [Вакансии](/jobs) -->

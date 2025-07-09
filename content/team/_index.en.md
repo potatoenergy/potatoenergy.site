@@ -37,12 +37,13 @@ title: "Potato Energy Team"
 
 ---
 
-``bash
+```bash
 # The principles of our work #
 - Weekly standups at 21:00 MSK
 - Code review before any merge
 - Monthly demo days
 - Full process transparency
 ```
+
 > **Join us:** 
 > [Codeberg](https://codeberg.org/potatoenergy) | [GitHub](https://github.com/potatoenergy) <!-- | [Jobs](/jobs) -->
