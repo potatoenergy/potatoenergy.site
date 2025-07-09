@@ -13,4 +13,4 @@ title: "Новости Картофельной Энергии"
 ```
 
 > **Следуйте за нами:**  
-> [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)
+> [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [VK](https://vk.com/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)

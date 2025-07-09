@@ -72,6 +72,9 @@ extendProfileMode:
     - name: docker
       title: docker
       url: https://hub.docker.com/u/ponfertato
+    - name: grafana
+      title: grafana
+      url: https://grafana.com/orgs/ponfertato
     - name: lastfm
       title: lastfm
       url: https://lastfm.com/user/ponfertato

@@ -40,8 +40,8 @@ extendProfileMode:
   # imageUrl: images/icon.png
   # imageTitle: "Potato Energy Logo"
   enabled: true
-  # title: "Кирилл Плотников"
-  # subtitle: "Гаджет-мастер, технологический эксперт и преданный картофанатор 🥔 а так же системный администратор Cisco/NauSoft"
+  # title: "Kirill Plotnikov"
+  # subtitle: "Gadget wizard, technology expert and dedicated potato fanatic 🥔 as well as Cisco/NauSoft system administrator"
   socialIcons:
     - name: bluesky
       title: bluesky
@@ -79,6 +79,9 @@ extendProfileMode:
     - name: docker
       title: docker
       url: https://hub.docker.com/u/ponfertato
+    - name: grafana
+      title: grafana
+      url: https://grafana.com/orgs/ponfertato
     - name: lastfm
       title: lastfm
       url: https://lastfm.com/user/ponfertato
