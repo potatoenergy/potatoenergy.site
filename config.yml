@@ -220,6 +220,9 @@ params:
     - name: telegram
       title: Join us on Telegram
       url: https://t.me/potatoenergy
+    - name: vk
+      title: Join us on VK
+      url: https://vk.com/potatoenergy
     - name: steam
       title: Join us on Steam
       url: https://steamcommunity.com/groups/potatoenergy
