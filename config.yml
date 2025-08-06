@@ -49,6 +49,10 @@ languages:
           url: https://auth.potatoenergy.ru/
           weight: 99
     params:
+      editPost:
+        URL: "https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
       profileMode:
         buttons:
           - name: Services
@@ -112,6 +116,10 @@ languages:
           url: https://auth.potatoenergy.ru/
           weight: 99
     params:
+      editPost:
+        URL: "https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content"
+        Text: "Предложить изменения"
+        appendFilePath: true
       profileMode:
         buttons:
           - name: Сервисы
