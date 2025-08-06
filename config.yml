@@ -194,7 +194,7 @@ params:
         en-us: en
         ru-ru: ru
       lazy_loading: true
-      mapping: pathname
+      mapping: og:title
       reactions: true
       repo: potatoenergy/potatoenergy.site
       repo_id: R_kgDOPZG5xQ
