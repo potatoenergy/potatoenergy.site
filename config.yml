@@ -1,5 +1,4 @@
 ---
-ignoreLogs: ['warning-partial-superfluous-prefix']
 baseURL: https://potatoenergy.ru/
 buildDrafts: true
 buildExpired: false
@@ -10,6 +9,7 @@ disableKinds: ['404']
 enableEmoji: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
+ignoreLogs: ['warning-partial-superfluous-prefix']
 languages:
   en:
     languageName: ':uk:'
@@ -50,8 +50,8 @@ languages:
           weight: 99
     params:
       editPost:
-        URL: "https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content"
-        Text: "Suggest Changes"
+        Text: Suggest Changes
+        URL: https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content
         appendFilePath: true
       profileMode:
         buttons:
@@ -68,8 +68,7 @@ languages:
           🥔 **Potato Energy** - where the tubers of tradition sprout into IT innovation  
 
           *“Because even space technology starts with Earth potatoes.”*  
-          
-          (🕒 Daily from 08:00 to 00:00)
+           (🕒 Daily from 08:00 to 00:00)
         title: >
           Potato Energy
       title: English
@@ -117,8 +116,8 @@ languages:
           weight: 99
     params:
       editPost:
-        URL: "https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content"
-        Text: "Предложить изменения"
+        Text: Предложить изменения
+        URL: https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content
         appendFilePath: true
       profileMode:
         buttons:
@@ -135,8 +134,7 @@ languages:
           🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации  
 
           *“Потому что даже космические технологии начинаются с земного картофеля”*  
-          
-          (🕒 Ежедневно с 08:00 по 00:00)
+           (🕒 Ежедневно с 08:00 по 00:00)
         title: >
           Картофельная Энергия
       title: Русский
@@ -176,8 +174,6 @@ params:
   ShowWordCount: true
   TocOpen: true
   TocSide: right
-  social:
-    fediverse_creator: "@ponfertato@potatoenergy.ru"
   analytics:
     yandex:
       SiteVerificationTag: '94077410'
@@ -189,17 +185,21 @@ params:
     favicon32x32: favicon-32x32.png
   author: ["Potato Energy"]
   commentSystems:
-    remark42:
-      components: ["embed", "last-comments"]
-      host: https://potatoenergy.ru/remark42
-      locale: ru
-      max_shown_comments: 15
-      no_footer: false
-      show_email_subscription: false
-      show_rss_subscription: true
-      simple_view: true
-      site_id: potatoenergy
-      theme: dark
+    giscus:
+      category: Comments
+      category_id: DIC_kwDOPZG5xc4Ct1ai
+      endpoint: https://giscus.app/
+      input_position: top
+      languages_mapping:
+        en-us: en
+        ru-ru: ru
+      lazy_loading: true
+      mapping: pathname
+      reactions: true
+      repo: potatoenergy/potatoenergy.site
+      repo_id: R_kgDOPZG5xQ
+      strict_matching: true
+      theme: preferred_color_scheme
   comments: true
   dateFormat: 02 Jan 2006
   defaultTheme: auto
@@ -221,6 +221,8 @@ params:
     icon: images/icon.png
     iconHeight: 35
     text: Potato Energy
+  social:
+    fediverse_creator: '@ponfertato@potatoenergy.ru'
   socialIcons:
     - name: discord
       title: Join us on Discord
