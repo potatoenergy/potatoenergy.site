@@ -1,45 +1,22 @@
 {{- /* You can add your own layouts/comments.html to override this file */ -}}
 
-{{- $page := . -}}
-{{- with site.Params.commentSystems.remark42 -}}
-  {{- if .host -}}
-    <script>
-      var remark_config = {
-        host: '{{ .host }}',
-        site_id: '{{ .site_id | default "remark" }}',
-        url: '{{ $.Page.Permalink }}',
-        // url: '{{ .url | default (printf "%s%s" .Page.Site.BaseURL .Page.Permalink) }}',
-        components: {{ .components | default "['embed']" }},
-        max_shown_comments: {{ .max_shown_comments | default 15 }},
-        theme: localStorage.getItem("pref-theme") || '{{ .theme | default "light" }}',
-        page_title: '{{ .page_title | default .Page.Title }}',
-        locale: '{{ .locale | default .Lang }}', // TODO: Автоматизировать смену языка в зависимости от выбранной
-        show_email_subscription: {{ .show_email_subscription | default true }},
-        show_rss_subscription: {{ .show_rss_subscription | default true }},
-        simple_view: {{ .simple_view | default false }},
-        no_footer: {{ .no_footer | default false }}
-      }
+{{- $cfg := site.Params.commentSystems.giscus -}}
+{{- if and $cfg.repo $cfg.repo_id $cfg.category $cfg.category_id -}}
+  <div id="comments">
+    <script src="{{ $cfg.endpoint | default "https://giscus.app/client.js" }}"
+            data-repo="{{ $cfg.repo }}"
+            data-repo-id="{{ $cfg.repo_id }}"
+            data-category="{{ $cfg.category }}"
+            data-category-id="{{ $cfg.category_id }}"
+            data-mapping="{{ $cfg.mapping | default "pathname" }}"
+            data-strict="{{ cond $cfg.strict_matching "1" "0" }}"
+            data-reactions-enabled="{{ cond $cfg.reactions "1" "0" }}"
+            data-input-position="{{ $cfg.input_position | default "top" }}"
+            data-theme="{{ $cfg.theme | default "light" }}"
+            data-lang="{{ index $cfg.languages_mapping .Site.Language.Lang | default .Site.Language.Lang }}"
+            {{ if $cfg.lazy_loading }}loading="lazy"{{ end }}
+            crossorigin="anonymous"
+            async>
     </script>
-
-    <script>
-      !function(components, document) {
-        for (var i = 0; i < components.length; i++) {
-          var script = document.createElement("script"),
-              fileExtension = ".js",
-              target = document.head || document.body;
-
-          if ("noModule" in script) {
-            script.type = "module";
-            fileExtension = ".mjs";
-          }
-          script.async = true;
-          script.defer = true;
-          script.src = remark_config.host + "/web/" + components[i] + fileExtension;
-          target.appendChild(script);
-        }
-      }(remark_config.components || ["embed"], document);
-    </script>
-
-    <div id="remark42"></div>
-  {{- end -}}
+  </div>
 {{- end -}}
