@@ -3,7 +3,7 @@
 {{- $cfg := site.Params.commentSystems.giscus -}}
 {{- if and $cfg.repo $cfg.repo_id $cfg.category $cfg.category_id -}}
   <div id="comments">
-    <script src="{{ $cfg.endpoint | default "https://giscus.app/client.js" }}"
+    <script src="{{ $cfg.endpoint | default "https://giscus.app/client.js"}}"
             data-repo="{{ $cfg.repo }}"
             data-repo-id="{{ $cfg.repo_id }}"
             data-category="{{ $cfg.category }}"
