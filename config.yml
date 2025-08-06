@@ -188,7 +188,7 @@ params:
     giscus:
       category: Comments
       category_id: DIC_kwDOPZG5xc4Ct1ai
-      endpoint: https://giscus.app/
+      endpoint: https://giscus.app/client.js
       input_position: top
       languages_mapping:
         en-us: en
