@@ -7,13 +7,13 @@ jobs:
     steps:
       - uses: superbrothers/close-pull-request@v3
         with:
-        comment: |
-          🚫 This repository does not accept pull requests. 
+          comment: |
+            🚫 This repository does not accept pull requests. 
 
-          This PR is being closed automatically. For contributions, please submit your pull request to:
-          ${{ env.SOURCE_REPO }}/pulls
+            This PR is being closed automatically. For contributions, please submit your pull request to:
+            ${{ env.SOURCE_REPO }}/pulls
 
-          If you have any questions, feel free to contact us there! 😊
+            If you have any questions, feel free to contact us there! 😊
 name: Close Pull Request
 'on':
   pull_request_target:
