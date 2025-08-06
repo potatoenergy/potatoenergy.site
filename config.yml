@@ -23,7 +23,7 @@ languages:
         - name: Grafana
           params:
             external: true
-          url: https://potatoenergy.ru/grafana/
+          url: https://grafana.potatoenergy.ru/
         - name: AI
           params:
             external: true
@@ -50,7 +50,7 @@ languages:
           weight: 99
     params:
       editPost:
-        Text: Suggest Changes
+        Text: ✏️ Suggest Changes
         URL: https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content
         appendFilePath: true
       profileMode:
@@ -89,7 +89,7 @@ languages:
         - name: Grafana
           params:
             external: true
-          url: https://potatoenergy.ru/grafana/
+          url: https://grafana.potatoenergy.ru/
         - name: ИИ
           params:
             external: true
@@ -116,7 +116,7 @@ languages:
           weight: 99
     params:
       editPost:
-        Text: Предложить изменения
+        Text: ✏️ Предложить изменения
         URL: https://codeberg.org/potatoenergy/potatoenergy.site/src/branch/main/content
         appendFilePath: true
       profileMode:
