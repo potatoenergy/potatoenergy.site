@@ -68,7 +68,7 @@ languages:
           🥔 **Potato Energy** - where the tubers of tradition sprout into IT innovation  
 
           *“Because even space technology starts with Earth potatoes.”*  
-           (🕒 Daily from 08:00 to 00:00)
+           (![Upptime Badge](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=for-the-badge&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6&link=https%3A%2F%2Fstatus.potatoenergy.ru%2F) Daily from 08:00 to 00:00)
         title: >
           Potato Energy
       title: English
@@ -134,7 +134,7 @@ languages:
           🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации  
 
           *“Потому что даже космические технологии начинаются с земного картофеля”*  
-           (🕒 Ежедневно с 08:00 по 00:00)
+           (![Upptime Badge](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=for-the-badge&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6&link=https%3A%2F%2Fstatus.potatoenergy.ru%2F) Ежедневно с 08:00 по 00:00)
         title: >
           Картофельная Энергия
       title: Русский
