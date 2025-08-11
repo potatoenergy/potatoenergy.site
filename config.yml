@@ -1,15 +1,13 @@
 ---
 baseURL: https://potatoenergy.ru/
-buildDrafts: true
+buildDrafts: false
 buildExpired: false
 buildFuture: false
 copyright: © 2023-2025 **[Potato Energy Team](https://potatoenergy.ru/)**
 defaultContentLanguage: ru
 disableKinds: ['404']
 enableEmoji: true
-enableInlineShortcodes: true
 enableRobotsTXT: true
-ignoreLogs: ['warning-partial-superfluous-prefix']
 languages:
   en:
     languageName: ':uk:'
@@ -70,16 +68,11 @@ languages:
             <p><em>"Because even space technology starts with Earth potatoes."</em></p>
             <p>(🕒 Daily from 08:00 to 00:00)</p>
             <p>
-              <img alt="Upptime Badge" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=Status&labelColor=%23414244&color=%23d6d6d6">
+              <img alt="Status Badge" src="https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/potatoenergy/status/refs/heads/master/history/api.yml&query=$.status&style=flat-square&logo=upptime&label=Status&labelColor=%23414244&color=%23d6d6d6">
             </p>
           </div>
-        title: >
-          Potato Energy
-      title: English
-    taxonomies:
-      category: categories
-      series: series
-      tag: tags
+        title: Potato Energy
+    title: English
     weight: 1
   ru:
     languageName: ':ru:'
@@ -140,16 +133,11 @@ languages:
             <p><em>"Потому что даже космические технологии начинаются с земного картофеля"</em></p>
             <p>(🕒 Ежедневно с 08:00 по 00:00)</p>
             <p>
-              <img alt="Upptime Badge" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81&labelColor=%23414244&color=%23d6d6d6">
+              <img alt="Статус" src="https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/potatoenergy/status/refs/heads/master/history/api.yml&query=$.status&style=flat-square&logo=upptime&label=%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81&labelColor=%23414244&color=%23d6d6d6">
             </p>
           </div>
-        title: >
-          Картофельная Энергия
-      title: Русский
-    taxonomies:
-      category: categories
-      series: series
-      tag: tags
+        title: Картофельная Энергия
+    title: Русский
     weight: 2
 mainsections: ["posts", "news"]
 markup:
@@ -212,10 +200,7 @@ params:
   dateFormat: 02 Jan 2006
   defaultTheme: auto
   description: Potato Energy - Откройте для мира потенциал картофеля вместе с нами!
-  disableSpecial1stPost: false
   disableThemeToggle: false
-  displayFullLangName: true
-  env: production
   fuseOpts:
     distance: 1000
     isCaseSensitive: false
@@ -261,8 +246,6 @@ params:
     - name: rss
       title: RSS
       url: index.xml
+  title: Potato Energy
   useCustomAnalytics: false
-pygmentsUseClasses: true
-theme:
-  - PaperMod
-title: Potato Energy
+theme: PaperMod
