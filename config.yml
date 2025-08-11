@@ -63,18 +63,10 @@ languages:
         imageTitle: Potato Energy Logo
         imageUrl: images/icon.png
         subtitle: |
-          <div style="text-align: center; line-height: 1.4;">
-            <p>🥔 <strong>Potato Energy</strong> - where the tubers of tradition sprout into IT innovation</p>
-            <p><em>"Because even space technology starts with Earth potatoes."</em></p>
-            <p>(🕒 Daily from 08:00 to 00:00)</p>
-            <p>
-              <img 
-                alt="Upptime Badge" 
-                src="https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/potatoenergy/status/refs/heads/master/history/api.yml&query=$.status&style=for-the-badge&logo=upptime&label=Status&labelColor=%23414244&color=%23d6d6d6" 
-                style="display: inline-block;"
-              >
-            </p>
-          </div>
+          🥔 **Potato Energy** - where the tubers of tradition sprout into IT innovation
+          
+          *«Because even space technology starts with Earth potatoes.»*
+          (🕒 Daily from 08:00 to 00:00)
         title: Potato Energy
     title: English
     weight: 1
@@ -132,18 +124,10 @@ languages:
         imageTitle: Potato Energy Logo
         imageUrl: images/icon.png
         subtitle: |
-          <div style="text-align: center; line-height: 1.4;">
-            <p>🥔 <strong>Potato Energy</strong> — где клубни традиций прорастают в IT-инновации</p>
-            <p><em>"Потому что даже космические технологии начинаются с земного картофеля"</em></p>
-            <p>(🕒 Ежедневно с 08:00 по 00:00)</p>
-            <p>
-              <img 
-                alt="Upptime Badge" 
-                src="https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/potatoenergy/status/refs/heads/master/history/api.yml&query=$.status&style=for-the-badge&logo=upptime&label=%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81&labelColor=%23414244&color=%23d6d6d6" 
-                style="display: inline-block;"
-              >
-            </p>
-          </div>
+          🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации
+          
+          *«Потому что даже космические технологии начинаются с земного картофеля»*
+          (🕒 Ежедневно с 08:00 по 00:00)
         title: Картофельная Энергия
     title: Русский
     weight: 2
