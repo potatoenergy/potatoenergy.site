@@ -66,7 +66,7 @@ languages:
           <div style="text-align: center; line-height: 1.4;">
             <p>🥔 <strong>Potato Energy</strong> - where the tubers of tradition sprout into IT innovation</p>
             <p><em>"Because even space technology starts with Earth potatoes."</em></p>
-            <p>(<img alt="Upptime Badge" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6"> Daily from 08:00 to 00:00)</p>
+            <p>(<img alt="🕒" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6"> Daily from 08:00 to 00:00)</p>
           </div>
         title: Potato Energy
     title: English
@@ -128,7 +128,7 @@ languages:
           <div style="text-align: center; line-height: 1.4;">
             <p>🥔 <strong>Potato Energy</strong> — где клубни традиций прорастают в IT-инновации</p>
             <p><em>"Потому что даже космические технологии начинаются с земного картофеля"</em></p>
-            <p>(<img alt="Upptime Badge" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6"> Ежедневно с 08:00 по 00:00)</p>
+            <p>(<img alt="🕒" src="https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpotatoenergy%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fhistory%2Fapi.yml&query=%24.status&style=flat-square&logo=upptime&label=%20&labelColor=%23414244&color=%23d6d6d6"> Ежедневно с 08:00 по 00:00)</p>
           </div>
         title: Картофельная Энергия
     title: Русский
