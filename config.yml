@@ -146,7 +146,7 @@ outputs:
     - RSS
     - JSON
 pagination:
-  pagerSize: 5
+  pagerSize: 7
 params:
   EnableImageZoom: true
   EnableInstantClick: true
