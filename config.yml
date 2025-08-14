@@ -68,7 +68,7 @@ languages:
           *«Because even space technology starts with Earth potatoes.»*
           (🕒 Daily from 08:00 to 00:00)
         title: Potato Energy
-    title: English
+    title: Potato Energy
     weight: 1
   ru:
     languageName: ':ru:'
@@ -129,7 +129,7 @@ languages:
           *«Потому что даже космические технологии начинаются с земного картофеля»*
           (🕒 Ежедневно с 08:00 по 00:00)
         title: Картофельная Энергия
-    title: Русский
+    title: Картофельная Энергия
     weight: 2
 mainsections: ["posts", "news"]
 markup:
