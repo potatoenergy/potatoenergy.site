@@ -23,5 +23,5 @@ title: "Сервисы Potato Energy: Технологии, которые ра�
 - ✅ Профессиональное оформление даже в аварийных ситуациях
 - ✅ Регулярные обновления и мониторинг для предотвращения проблем
 
-> **Начните использовать уже сегодня:**  
+> **Следуйте за нами:**  
 > [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [VK](https://vk.com/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)

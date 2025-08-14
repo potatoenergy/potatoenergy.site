@@ -23,5 +23,5 @@ title: "Potato Energy Services: Technology Working for You"
 - ✅ Professional appearance even in emergency situations
 - ✅ Regular updates and monitoring to prevent issues
 
-> **Start using today:**  
+> **Follow us:**
 > [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [VK](https://vk.com/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)
