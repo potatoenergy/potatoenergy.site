@@ -10,7 +10,7 @@ tags: ["git", "gpt", "python", "pip"]
 title: "GPT4Free Python Version"
 ---
 
-### GPT4Free is a project which is an attempt to provide the possibility of using the GPT-4 language model for free. GPT-4 (Generative Pre-trained Transformer 4) is an artificial intelligence model developed by OpenAI that is based on the Transformer architecture and is designed to generate text based on given input data.
+### GPT4Free is a project which is an attempt to provide the possibility of using the GPT-4 language model for free. GPT-4 (Generative Pre-trained Transformer 4) is an artificial intelligence model developed by OpenAI that is based on the Transformer architecture and is designed to generate text based on given input data
 
 GPT-4 is capable of understanding and generating natural language, has a wide range of knowledge and can help in various tasks such as text generation, answering questions, customer support and others. It learns from huge amounts of text data and is able to understand the context and meaning of a given question or text.
 
@@ -18,7 +18,7 @@ GPT4Free is an initiative that gives you access to basic GPT-4 features without 
 
 # Requirements
 
-### Installing Python with PATH environment variable integration on a Windows system, follow these steps:
+### Installing Python with PATH environment variable integration on a Windows system, follow these steps
 
 1. Go to the official Python website - [Python.org](https://www.python.org), and download the Windows installer appropriate for your system (32-bit or 64-bit).
 
@@ -34,13 +34,13 @@ GPT4Free is an initiative that gives you access to basic GPT-4 features without 
 
 You should now have Python installed with integration in the PATH environment variable on your Windows system. You can use the `python` command in the terminal to run the Python interpreter.
 
-### Update Pip on a Windows system with Python already installed, follow these steps:
+### Update Pip on a Windows system with Python already installed, follow these steps
 
 1. open a command prompt by pressing Win + R and typing "cmd", then press Enter.
 
 2. In the terminal, type the following command to update Pip:
 
-![](images/content/blog/gpt/gpt4free/115208.png)
+![](img/content/blog/gpt/gpt4free/115208.png)
 
 ```bash
 python.exe -m pip install --upgrade pip
@@ -50,7 +50,7 @@ python.exe -m pip install --upgrade pip
 
 4. If the update was successful, you will see a message saying that Pip has been successfully updated to the latest version.
 
-### Update Wheel on a Windows system with Pip already installed, follow these steps:
+### Update Wheel on a Windows system with Pip already installed, follow these steps
 
 1. Open a command prompt by pressing Win + R and typing "cmd", then press Enter.
 
@@ -68,24 +68,24 @@ You should now have the latest version of Wheel installed on your Windows system
 
 # Start
 
-## Project setup:
+## Project setup
 
-![](images/content/blog/gpt/gpt4free/114733.png)
+![](img/content/blog/gpt/gpt4free/114733.png)
 Clone the GPT4Free repository from the GitHub site:
 
 ```bash
 git clone https://github.com/xtekky/gpt4free.git
 ```
 
-## Navigate to the project directory:
+## Navigate to the project directory
 
 ```bash
 cd gpt4free
 ```
 
-## Create a virtual environment to manage Python packages and activate the virtual environment:
+## Create a virtual environment to manage Python packages and activate the virtual environment
 
-![](images/content/blog/gpt/gpt4free/115326.png)
+![](img/content/blog/gpt/gpt4free/115326.png)
 
 ```bash
 python.exe -m venv venv
@@ -95,17 +95,17 @@ python.exe -m venv venv
 .\venv\Scripts\activate
 ```
 
-## Install the necessary Python packages from the requirements.txt file:
+## Install the necessary Python packages from the requirements.txt file
 
-![](images/content/blog/gpt/gpt4free/115449.png)
+![](img/content/blog/gpt/gpt4free/115449.png)
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Create a file test.py in the root folder with the following contents:
+## Create a file test.py in the root folder with the following contents
 
-![](images/content/blog/gpt/gpt4free/160824.png)
+![](img/content/blog/gpt/gpt4free/160824.png)
 
 ```python
 #The "import g4f" line imports the "g4f" module, which is a Python module that provides access to GPT4Free functions. By importing this module, you can use the functions and classes defined in the `g4f` module to interact with the GPT-4 language model and perform tasks such as completing chat.
@@ -140,15 +140,15 @@ for message in response:
 
 # Use
 
-## Start the server!
+## Start the server
 
-![](images/content/blog/gpt/gpt4free/120039.png)
+![](img/content/blog/gpt/gpt4free/120039.png)
 
 ```bash
 python3 -m interference.app
 ```
 
-The API will be available at: http://127.0.0.1:1337
+The API will be available at: <http://127.0.0.1:1337>
 
 Next, to start GPT4Free, turn on the VPN, open a terminal and execute the three commands below in sequence:
 
@@ -160,6 +160,6 @@ python3 -m interference.app
 
 # Models
 
-https://github.com/xtekky/gpt4free#gpt-35--gpt-4
+<https://github.com/xtekky/gpt4free#gpt-35--gpt-4>
 
-https://github.com/xtekky/gpt4free#other-models
+<https://github.com/xtekky/gpt4free#other-models>

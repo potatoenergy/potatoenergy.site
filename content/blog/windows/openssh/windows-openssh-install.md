@@ -29,7 +29,7 @@ OpenSSH шифрует весь трафик между клиентом и се
 
 5. Ресурсы компьютера: OpenSSH сервер не требует значительных ресурсов компьютера. Однако, убедитесь, что на вашем компьютере достаточно процессорной мощности и оперативной памяти для обеспечения плавной работы сервера.
 
-# Включение необходимых компонентов:
+# Включение необходимых компонентов
 
 ## Через командную строку
 
@@ -38,41 +38,48 @@ OpenSSH шифрует весь трафик между клиентом и се
 - Сначала откройте повышенную командную строку PowerShell. Для этого щелкните правой кнопкой мыши по значку "Пуск" и выберите "Windows PowerShell (Администратор)".
 
 - В командной строке PowerShell введите следующую команду:
+
 ```ps1
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Server*' | Add-WindowsCapability -Online
 ```
-![](images/content/blog/windows/openssh/WindowsTerminal_X4D0Pdn6r8.png)
+
+![](img/content/blog/windows/openssh/WindowsTerminal_X4D0Pdn6r8.png)
 Эта команда просмотрит доступные возможности Windows и установит пакет сервера OpenSSH.
-![](images/content/blog/windows/openssh/WindowsTerminal_Y8mLOC5fu7.png)
+![](img/content/blog/windows/openssh/WindowsTerminal_Y8mLOC5fu7.png)
 
 - Если вы предпочитаете использовать команду DISM, введите следующую команду:
+
 ```ps1
 dism /Online /Add-Capability /CapabilityName:OpenSSH.Server~~~~0.0.1.0
 ```
+
 Эта команда также активирует сервер OpenSSH на вашей системе.
-![](images/content/blog/windows/openssh/WindowsTerminal_b8nMmitCri.png)
+![](img/content/blog/windows/openssh/WindowsTerminal_b8nMmitCri.png)
 
 ## Через параметры системы
 
 Ты также можешь установить OpenSSH на Windows 10/11 с помощью современной панели настроек (Настройки -> Приложения и компоненты -> Дополнительные компоненты -> Добавить компонент). Найди в списке функцию "Сервер OpenSSH" и нажми "Установить".
-![](images/content/blog/windows/openssh/mstsc_BRQMECACUC.png)
+![](img/content/blog/windows/openssh/mstsc_BRQMECACUC.png)
 
 ## Через MSI установщик
 
-Один из вариантов - это использование MSI-установщика, который можно найти в официальном репозитории Microsoft на GitHub (https://github.com/PowerShell/Win32-OpenSSH/releases/). Там необходимо скачать MSI-пакет OpenSSH-Win64-v*.*.*.*.msi для Windows (Актуальный на момент написания статьи релиз: v9.5.0.0p1-Beta). Просто загрузить его и установить на свой компьютер следующими шагами:
+Один из вариантов - это использование MSI-установщика, который можно найти в официальном репозитории Microsoft на GitHub (<https://github.com/PowerShell/Win32-OpenSSH/releases/>). Там необходимо скачать MSI-пакет OpenSSH-Win64-v*.*.*.*.msi для Windows (Актуальный на момент написания статьи релиз: v9.5.0.0p1-Beta). Просто загрузить его и установить на свой компьютер следующими шагами:
 
 1. Загрузите MSI-файл, используя следующую команду PowerShell:
+
 ```ps1
 Invoke-WebRequest https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win64-v9.5.0.0.msi -OutFile $HOME\Downloads\OpenSSH-Win64-v9.5.0.0.msi -UseBasicParsing
 ```
+
 2. Затем выполним команду установки MSI для установки OpenSSH клиента и сервера:
+
 ```batch
 msiexec /i $HOME\Downloads\OpenSSH-Win64-v9.5.0.0.msi
 ```
 
 После завершения установки сервера OpenSSH вы сможете настроить его и использовать для выполнения различных задач связанных с удаленным доступом, безопасным обменом данными и управлением учетными записями.
 
-# Настройка необходимых компонентов:
+# Настройка необходимых компонентов
 
 После установки сервера OpenSSH на Windows, добавляются две службы:
 
@@ -82,26 +89,31 @@ msiexec /i $HOME\Downloads\OpenSSH-Win64-v9.5.0.0.msi
 Для настройки сервера OpenSSH на Windows, выполните следующие шаги:
 
 Измените тип запуска службы sshd на автоматический, используя PowerShell:
+
 ```ps1
 Set-Service -Name sshd -StartupType 'Automatic'
 ```
 
 Запустите службу sshd с помощью команды PowerShell:
+
 ```ps1
 Start-Service sshd
 ```
 
 Проверьте, работает ли SSH-сервер на Windows и ожидает подключений на TCP-порту 22, используя команду netstat:
+
 ```batch
 netstat -na | find ":22"
 ```
 
 Убедитесь, что брандмауэр Windows Defender разрешает входящие соединения на TCP-порту 22, используя команду PowerShell:
+
 ```ps1
 Get-NetFirewallRule -Name *OpenSSH-Server* | select Name, DisplayName, Description, Enabled
 ```
 
 Если правило отключено (Enabled=False) или отсутствует, вы можете создать новое правило входящего соединения с использованием командлета New-NetFirewallRule, например:
+
 ```ps1
 New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
 ```
@@ -109,7 +121,6 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled Tru
 По умолчанию, ключевые компоненты OpenSSH располагаются в следующих папках:
 
 Исполняемые файлы сервера OpenSSH: C:\Windows\System32\OpenSSH (sshd.exe, ssh.exe, ssh-keygen.exe, sftp.exe и пр.)
+
 - Файл sshd_config (создается после первого запуска службы sshd): `C:\ProgramData\ssh`
 - Файл authorized_keys и ключи могут храниться в папке профиля пользователя: `%USERPROFILE%\.ssh\`
-
-

@@ -6,6 +6,7 @@ title: "Potato Energy Team"
 ### Technology Creators from tubers 🥔
 
 **Main Roles**  
+
 - 🧑💻 System architecture and security  
 - 🛠️ Developing key services  
 - 📊 Monitoring and analytics  
@@ -14,25 +15,29 @@ title: "Potato Energy Team"
 ---
 
 ### ponfertato (Kirill Plotnikov)  
+
 **Project Team Lead**  
+
 - Responsible for the overall architecture  
 - Coordination of releases and updates  
 - Integration of authentication systems  
 - Infrastructure security control  
 
-> *"Potatoes are not just a vegetable, they are a state of mind "* 
+> *"Potatoes are not just a vegetable, they are a state of mind "*
 [@ponfertato](mailto:ponfertato@potatoenergy.ru)
 
 ---
 
 ### iluvcocacola (Dmitry Viharev)  
+
 **Lead Developer**  
+
 - Optimization of Docker stacks  
 - Implementation of GitOps processes  
 - Support of game servers  
 - Development of monitoring systems  
 
-> *"Every line of code should be as satisfying as a sip of cola. "* 
+> *"Every line of code should be as satisfying as a sip of cola. "*
 [@iluvcocacola](mailto:iluvcocacola@potatoenergy.ru)
 
 ---
@@ -45,5 +50,5 @@ title: "Potato Energy Team"
 - Full process transparency
 ```
 
-> **Join us:** 
+> **Join us:**
 > [Codeberg](https://codeberg.org/potatoenergy) | [GitHub](https://github.com/potatoenergy) <!-- | [Jobs](/jobs) -->

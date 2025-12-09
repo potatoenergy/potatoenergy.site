@@ -22,7 +22,7 @@ It often happens that while working on one project, you need to use another proj
 
 ## Adding a New Submodule to Your Git Repository with git submodule add
 
-This command is adding a new submodule to the current Git repository. It is cloning the repository located at https://github.com/luizdepra/hugo-coder.git and adding it as a submodule in the themes/hugo-coder directory of the current repository. The output shows the progress of the cloning process and any warnings or errors that may occur.
+This command is adding a new submodule to the current Git repository. It is cloning the repository located at <https://github.com/luizdepra/hugo-coder.git> and adding it as a submodule in the themes/hugo-coder directory of the current repository. The output shows the progress of the cloning process and any warnings or errors that may occur.
 
 ```
 > git submodule add https://github.com/luizdepra/hugo-coder.git .\themes\hugo-coder
