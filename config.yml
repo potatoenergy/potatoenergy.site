@@ -60,8 +60,8 @@ languages:
           - name: Team
             url: team
         enabled: true
-        imageTitle: Potato Energy Team (Logo)
-        imageUrl: images/logo.svg
+        imageTitle: Potato Energy Team (Icon)
+        imageUrl: images/icon.svg
         subtitle: |
           🥔 **Potato Energy** - where the tubers of tradition sprout into IT innovation
           
@@ -121,8 +121,8 @@ languages:
           - name: Команда
             url: team
         enabled: true
-        imageTitle: Potato Energy Team (Лого)
-        imageUrl: images/logo.svg
+        imageTitle: Potato Energy Team (Иконка)
+        imageUrl: images/icon.svg
         subtitle: |
           🥔 **Potato Energy** — где клубни традиций прорастают в IT-инновации
           
@@ -207,11 +207,11 @@ params:
     Organization:
       '@context': https://schema.org
       '@type': Organization
-      logo: https://potatoenergy.ru/images/logo.svg
+      logo: https://potatoenergy.ru/images/icon.svg
       name: Potato Energy
       url: https://potatoenergy.ru/
   logo:
-    icon: images/logo.svg
+    icon: images/icon.svg
     iconHeight: 35
     text: Potato Energy
   social:
