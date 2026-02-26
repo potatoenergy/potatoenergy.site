@@ -36,6 +36,9 @@ extendProfileMode:
   # title: "Кирилл Плотников"
   # subtitle: "Гаджет-мастер, технологический эксперт и преданный картофанатор 🥔 а так же системный администратор Cisco/NauSoft"
   socialIcons:
+    - name: email
+      title: email
+      url: mailto:ponfertato@potatoenergy.ru
     - name: bluesky
       title: bluesky
       url: https://bsky.app/profile/ponfertato.potatoenergy.ru
@@ -51,9 +54,6 @@ extendProfileMode:
     - name: steam
       title: steam
       url: https://steamcommunity.com/profiles/ponfertato
-    - name: wakatime
-      title: wakatime
-      url: https://wakatime.com/@ponfertato
     - name: codeberg
       title: codeberg
       url: https://codeberg.org/ponfertato
@@ -63,24 +63,24 @@ extendProfileMode:
     - name: gitlab
       title: gitlab
       url: https://gitlab.com/ponfertato
-    - name: crowdin
-      title: crowdin
-      url: https://crowdin.com/profile/ponfertato
-    - name: weblate
-      title: weblate
-      url: https://hosted.weblate.org/user/ponfertato
-    - name: docker
-      title: docker
-      url: https://hub.docker.com/u/ponfertato
-    - name: grafana
-      title: grafana
-      url: https://grafana.com/orgs/ponfertato
-    - name: lastfm
-      title: lastfm
-      url: https://lastfm.com/user/ponfertato
-    - name: email
-      title: email
-      url: mailto:ponfertato@potatoenergy.ru
+    # - name: wakatime
+    #   title: wakatime
+    #   url: https://wakatime.com/@ponfertato
+    # - name: crowdin
+    #   title: crowdin
+    #   url: https://crowdin.com/profile/ponfertato
+    # - name: weblate
+    #   title: weblate
+    #   url: https://hosted.weblate.org/user/ponfertato
+    # - name: docker
+    #   title: docker
+    #   url: https://hub.docker.com/u/ponfertato
+    # - name: grafana
+    #   title: grafana
+    #   url: https://grafana.com/orgs/ponfertato
+    # - name: lastfm
+    #   title: lastfm
+    #   url: https://lastfm.com/user/ponfertato
     - name: orcid
       title: orcid
       url: https://orcid.org/0009-0008-4939-5484

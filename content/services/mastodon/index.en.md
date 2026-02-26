@@ -6,13 +6,26 @@ slug: "mastodon"
 title: "Mastodon: Your Federated Space"
 ---
 
-### Mastodon: Your Federated Space [🌐](https://joinmastodon.org/)
+### Mastodon: Your federated space [🌐](https://joinmastodon.org/)
 
-**Social network without censorship**, where you truly own your data.  
-**Capabilities:**
+**An uncensored social network** where you own your data.
 
-- Publishing posts and media
-- Interacting with users from other servers
-- Flexible privacy settings
-- Custom emojis and themes  
-**How to join:** [social.potatoenergy.ru](https://social.potatoenergy.ru)
+**What does:**
+
+- 📝 Publishing posts, threads, images, and videos without an algorithmic feed
+- 🌍 Federation via ActivityPub: communication with Mastodon, Pixelfed, and PeerTube users
+- 🔒 Flexible privacy: subscriber-only posts, local messages, CW tags
+- 🎨 Custom emojis, design themes, and content moderation
+- 🛡️ Local moderation and spam blocking - you control your space
+
+**How to join:**
+
+1. Go to [social.potatoenergy.ru](https://social.potatoenergy.ru/)
+2. Log in with your Potato Energy account (via Authelia)
+3. Set up a profile and start publishing - you are already in the federation
+
+**For moderators:**
+Tools for reporting, silencing/blocking, and federal rules are all in the admin panel.
+
+**Status:** https://status.potatoenergy.ru/history/mastodon
+**Access:** [social.potatoenergy.ru](https://social.potatoenergy.ru/) • according to Potato Energy credentials

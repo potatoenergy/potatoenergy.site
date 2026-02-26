@@ -1,7 +1,7 @@
 <div class="extend-profile">
   {{- with .Page.Params.extendProfileMode }}
   {{- if .enabled }}
-  <div class="profile-inner">
+  <div class="profile-inner" style="text-align:center;padding:20px 0">
     {{- if .imageUrl }}
     {{- $img := "" -}}
     {{- if not (urls.Parse .imageUrl).IsAbs -}}
@@ -26,37 +26,42 @@
     {{- $img = $img.Resize "150x150" -}}
     {{- end }}
     {{- end }}
-    <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default " profile image" }}" title="{{ .imageTitle }}"
-      width="{{ .imageWidth | default 150 }}" height="{{ .imageHeight | default 150 }}" />
+    <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+      width="{{ .imageWidth | default 150 }}" height="{{ .imageHeight | default 150 }}" 
+      style="border-radius:50%;object-fit:cover;margin:0 auto 16px;display:block" />
     {{- else }}
-    <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " profile image" }}" title="{{ .imageTitle }}"
-      width="{{ .imageWidth | default 150 }}" height="{{ .imageHeight | default 150 }}" />
+    <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+      width="{{ .imageWidth | default 150 }}" height="{{ .imageHeight | default 150 }}"
+      style="border-radius:50%;object-fit:cover;margin:0 auto 16px;display:block" />
     {{- end }}
     {{- end }}
-    <!-- <h1>{{ .title | default site.Title | markdownify }}</h1> -->
-    <p>{{ .subtitle | markdownify }}</p>
+
+    <p style="margin:0 0 24px;color:var(--text-color,#333);font-size:1.1rem;line-height:1.5">
+      {{ .subtitle | markdownify }}
+    </p>
 
     {{- if .socialIcons }}
-    <div class="social-icons">
+    <div class="social-icons" style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:24px 0">
       {{- range .socialIcons }}
       <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
-        title="{{ (.title | default .name) | title }}">
-        {{ partial "svg.html" . }}
+        title="{{ (.title | default .name) | title }}"
+        style="display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:var(--card-bg,#f0f0f0);color:var(--text-color,#333);text-decoration:none;border:1px solid var(--border-color,#ddd)">
+        {{ partial "svg.html" (dict "name" .name "size" "18") }}
       </a>
       {{- end }}
     </div>
     {{- end }}
 
     {{- if .buttons }}
-    <div class="buttons">
+    <div class="buttons" style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:24px 0">
       {{- range .buttons }}
-      <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-        <span class="button-inner">
+      <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}"
+        style="display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:8px;background:var(--card-bg,#f0f0f0);color:var(--text-color,#333);text-decoration:none;font-weight:500;border:1px solid var(--border-color,#ddd)">
+        <span class="button-inner" style="display:flex;align-items:center;gap:6px">
           {{ .name }}
           {{- if (findRE "://" .url) }}
-          &nbsp;
           <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14" style="flex-shrink:0">
             <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
             <path d="M15 3h6v6"></path>
             <path d="M10 14L21 3"></path>

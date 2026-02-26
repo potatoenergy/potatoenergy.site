@@ -8,11 +8,26 @@ title: "ArchiSteamFarm: Steam Manager"
 
 ### ArchiSteamFarm: Steam Manager [🎮](https://github.com/JustArchiNET/ArchiSteamFarm)
 
-**Autopilot** for your Steam accounts.  
-**Helps with:**
+**Autopilot** for your Steam accounts under our management.
 
-- Automatic card farming
-- Managing multiple accounts
-- Protection against account bans
-- Tracking all actions  
-**How to use:** Works in the background, managed by administrators.
+**What does:**
+
+- ⚙️ Automatic activation of game distributions
+- 🃏 Autofarming of cards and badges
+- 👥 Manage multiple accounts from one interface
+- 📊 Logging of actions and event notifications
+- 🔐 Session isolation and lock protection
+
+**How to use:**
+
+1. Request access from the administrator
+2. Provide the minimum data: login + sharedSecret (optional)
+3. The bot works in the background - you receive cards, we monitor the stability
+
+**Security:**
+
+- Data is encrypted at the configuration level
+- The bot's access is limited to farming only
+- You still have full account control.
+
+**Access:** on request • [Contact](/team)

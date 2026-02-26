@@ -6,13 +6,26 @@ slug: "nextcloud"
 title: "Nextcloud: Your Digital Workspace"
 ---
 
-### Nextcloud: Your Cloud [☁️](https://nextcloud.com/)
+### Nextcloud: Your cloud [☁️](https://nextcloud.com/)
 
-**Secure storage** for files with productivity tools.  
-**Main functions:**
+**Secure storage** of files with tools for work under your control.
 
-- File storage and synchronization
-- Collaborative document editing
-- Video conferencing
-- Calendars and task management  
-**Address:** [cloud.potatoenergy.ru](https://cloud.potatoenergy.ru)
+**What does:**
+
+- 📁 File synchronization between PC, phone and web interface
+- ✍️ Collaborative document editing (OnlyOffice/ Collaboration)
+- 🎥 Video calls via Talk with encryption and recording
+- 📅 Calendars, tasks, contacts - synchronization via CardDAV/CalDAV
+- 🔐 Data encryption on the server + two - factor authentication
+
+**How to use:**
+
+1. Open [cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/)
+2. Log in with your Potato Energy account (via Authelia)
+3. Upload files, create documents, invite colleagues
+
+**For administrators:**
+Quota management, external storage, log auditing, integration with Authelia.
+
+**Status:** https://status.potatoenergy.ru/history/nextcloud
+**Access:** [cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/) • according to Potato Energy credentials
