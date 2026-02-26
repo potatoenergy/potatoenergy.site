@@ -28,5 +28,8 @@ title: "Minecraft: Boundless World of Potato Energy"
 **Rules:**
 No cheating, respect other people's buildings, and coordinate in the chat. The details are on the server.
 
-**Status:** https://status.potatoenergy.ru/history/minecraft
-**Access:** `connect.potatoenergy.ru:25565` • public, registration is required at the entrance
+**Status:**
+https://status.potatoenergy.ru/history/minecraft
+
+**Access:**
+`connect.potatoenergy.ru:25565` • public, registration is required at the entrance

@@ -27,4 +27,5 @@ title: "Authelia: Protection of Digital Space"
 **For administrators:**
 Rights management, forced 2FA, session auditing - all in a single dashboard.
 
-**Access:** automatically upon registration
+**Access:**
+automatically upon registration

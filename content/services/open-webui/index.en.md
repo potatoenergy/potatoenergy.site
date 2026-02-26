@@ -10,7 +10,7 @@ title: "Open WebUI: Your Intelligent Assistant"
 
 **Intelligent assistant** to solve everyday tasks under your control.
 
-** What does:**
+**What does:**
 
 - 🧠 Working with local and cloud LLMs (Llama, Mistral, GPT-compatible APIs)
 - 🔍 RAG-search: download PDF/DOC/TXT - AI will respond based on the content of the document
@@ -27,5 +27,8 @@ title: "Open WebUI: Your Intelligent Assistant"
 **For advanced users:**
 Configuring system tools, connecting external APIs, context management, and web hooks.
 
-**Status:** https://status.potatoenergy.ru/history/open-web-ui
-**Access:** [chat.potatoenergy.ru](https://chat.potatoenergy.ru/) • according to Potato Energy credentials
+**Status:**
+https://status.potatoenergy.ru/history/open-web-ui
+
+**Access:**
+[chat.potatoenergy.ru](https://chat.potatoenergy.ru/) • according to Potato Energy credentials

@@ -27,5 +27,8 @@ title: "Mastodon: Ваше федеративное пространство"
 **Для модераторов:**
 Инструменты репорта, silencе/блокировки, федеративные правила - всё в админ-панели.
 
-**Статус:** https://status.potatoenergy.ru/history/mastodon
-**Доступ:** [social.potatoenergy.ru](https://social.potatoenergy.ru/) • по учётным данным Potato Energy
+**Статус:**
+https://status.potatoenergy.ru/history/mastodon
+
+**Доступ:**
+[social.potatoenergy.ru](https://social.potatoenergy.ru/) • по учётным данным Potato Energy

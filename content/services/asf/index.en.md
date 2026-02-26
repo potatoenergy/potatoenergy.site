@@ -30,4 +30,5 @@ title: "ArchiSteamFarm: Steam Manager"
 - The bot's access is limited to farming only
 - You still have full account control.
 
-**Access:** on request • [Contact](/team)
+**Access:**
+on request • [Contact](/team)

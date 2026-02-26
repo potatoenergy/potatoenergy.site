@@ -27,4 +27,5 @@ title: "Error-Pages: Custom Error Pages"
 **For administrators:**
 Flexible customization of texts, redirects, and styles through a single configuration.
 
-**Access:** automatically • triggered in case of errors
+**Access:**
+automatically • triggered in case of errors

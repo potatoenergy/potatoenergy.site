@@ -28,5 +28,8 @@ title: "Terraria: Приключения на картофельной энер�
 **Правила:**
 Без гриферства, уважайте чужие постройки, не спамьте в чат. Детали - на сервере.
 
-**Статус:** https://status.potatoenergy.ru/history/terraria
-**Доступ:** `connect.potatoenergy.ru:7777` • публичный, регистрация не требуется
+**Статус:**
+https://status.potatoenergy.ru/history/terraria
+
+**Доступ:**
+`connect.potatoenergy.ru:7777` • публичный, регистрация не требуется

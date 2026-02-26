@@ -10,7 +10,7 @@ title: "Portainer: Visual Infrastructure Control"
 
 **Control panel** for all services in one place.
 
-** What does:**
+**What does:**
 
 - 🐳 Manage Docker containers, images, networks, and volumes via the web interface
 - 📦 Deployment of stacks from Docker Compose in one click
@@ -27,4 +27,5 @@ title: "Portainer: Visual Infrastructure Control"
 **For administrators:**
 Roles and access rights, action auditing, deployment templates, integration with registers.
 
-**Access:** `portainer.potatoenergy.ru` • according to Potato Energy credentials (only according to the rights of the `admin` group)
+**Access:**
+`portainer.potatoenergy.ru` • according to Potato Energy credentials (only according to the rights of the `admin` group)

@@ -28,5 +28,8 @@ title: "Mindustry: Industrial Wars on Potato Energy"
 **Rules:**
 No cheating, respect timings, and coordinate in the chat. The details are on the server.
 
-**Status:** https://status.potatoenergy.ru/history/mindustry
-**Access:** `connect.potatoenergy.ru:6567` • public, no registration required
+**Status:**
+https://status.potatoenergy.ru/history/mindustry
+
+**Access:**
+`connect.potatoenergy.ru:6567` • public, no registration required

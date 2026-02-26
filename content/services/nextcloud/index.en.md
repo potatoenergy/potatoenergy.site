@@ -27,5 +27,8 @@ title: "Nextcloud: Your Digital Workspace"
 **For administrators:**
 Quota management, external storage, log auditing, integration with Authelia.
 
-**Status:** https://status.potatoenergy.ru/history/nextcloud
-**Access:** [cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/) • according to Potato Energy credentials
+**Status:**
+https://status.potatoenergy.ru/history/nextcloud
+
+**Access:**
+[cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/) • according to Potato Energy credentials

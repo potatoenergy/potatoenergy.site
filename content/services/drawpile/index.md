@@ -27,5 +27,8 @@ title: "Drawpile: Совместное творчество"
 **Правила:**
 Уважайте чужое творчество, не спамьте в чат, координируйте действия. Детали - в описании сессии.
 
-**Статус:** https://status.potatoenergy.ru/history/drawpile
-**Доступ:** `connect.potatoenergy.ru:27750` • публичный, регистрация не требуется
+**Статус:**
+https://status.potatoenergy.ru/history/drawpile
+
+**Доступ:**
+`connect.potatoenergy.ru:27750` • публичный, регистрация не требуется

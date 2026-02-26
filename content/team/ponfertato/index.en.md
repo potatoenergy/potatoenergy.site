@@ -43,9 +43,6 @@ extendProfileMode:
   # title: "Kirill Plotnikov"
   # subtitle: "Gadget wizard, technology expert and dedicated potato fanatic 🥔 as well as Cisco/NauSoft system administrator"
   socialIcons:
-    - name: email
-      title: email
-      url: mailto:ponfertato@potatoenergy.ru
     - name: bluesky
       title: bluesky
       url: https://bsky.app/profile/ponfertato.potatoenergy.ru
@@ -91,6 +88,9 @@ extendProfileMode:
     - name: orcid
       title: orcid
       url: https://orcid.org/0009-0008-4939-5484
+    - name: email
+      title: email
+      url: mailto:ponfertato@potatoenergy.ru
 ---
 
 {{< extend_profile >}}

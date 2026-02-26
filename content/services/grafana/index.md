@@ -27,5 +27,8 @@ title: "Grafana: Видимость каждого бита"
 **Для группы `dev`:**
 Редактирование дашбордов, управление источниками данных, настройка уведомлений.
 
-**Статус:** https://status.potatoenergy.ru/history/grafana
-**Доступ:** `grafana.potatoenergy.ru` • просмотр открыт, редактирование - по правам
+**Статус:**
+https://status.potatoenergy.ru/history/grafana
+
+**Доступ:**
+`grafana.potatoenergy.ru` • просмотр открыт, редактирование - по правам

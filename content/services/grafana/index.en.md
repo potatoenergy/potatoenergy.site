@@ -29,5 +29,8 @@ Dashboards on CPU, RAM, disks, network for each service
 **For the `dev` group:**
 Editing dashboards, managing data sources, and configuring notifications.
 
-**Status:** https://status.potatoenergy.ru/history/grafana
-**Access:** `grafana.potatoenergy.ru` • viewing is open, editing is allowed
+**Status:**
+https://status.potatoenergy.ru/history/grafana
+
+**Access:**
+`grafana.potatoenergy.ru` • viewing is open, editing is allowed

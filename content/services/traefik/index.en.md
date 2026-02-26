@@ -27,4 +27,5 @@ title: "Traefik: Smart Router"
 **For administrators:**
 Dynamic configuration via Docker labels and configuration files, hot-reload without restarting, integration with Docker.
 
-**Access:** automatically • the basis for routing all Potato Energy services
+**Access:**
+automatically • the basis for routing all Potato Energy services

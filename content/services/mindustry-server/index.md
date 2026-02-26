@@ -28,5 +28,8 @@ title: "Mindustry: Индустриальные войны на картофел
 **Правила:**
 Без гриферства, уважайте тайминги, координируйтесь в чате. Детали - на сервере.
 
-**Статус:** https://status.potatoenergy.ru/history/mindustry
-**Доступ:** `connect.potatoenergy.ru:6567` • публичный, регистрация не требуется
+**Статус:**
+https://status.potatoenergy.ru/history/mindustry
+
+**Доступ:**
+`connect.potatoenergy.ru:6567` • публичный, регистрация не требуется

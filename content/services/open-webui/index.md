@@ -27,5 +27,8 @@ title: "Open WebUI: Ваш интеллектуальный помощник"
 **Для продвинутых:**
 Настройка системных промптов, подключение внешних API, управление контекстом, веб-хуки.
 
-**Статус:** https://status.potatoenergy.ru/history/open-web-ui
-**Доступ:** [chat.potatoenergy.ru](https://chat.potatoenergy.ru/) • по учётным данным Potato Energy
+**Статус:**
+https://status.potatoenergy.ru/history/open-web-ui
+
+**Доступ:**
+[chat.potatoenergy.ru](https://chat.potatoenergy.ru/) • по учётным данным Potato Energy

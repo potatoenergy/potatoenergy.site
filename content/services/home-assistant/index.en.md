@@ -10,7 +10,7 @@ title: "Home Assistant: Intelligent Core of Your Home"
 
 **Control Center** for your smart devices under your control.
 
-** What does:**
+**What does:**
 
 - 💡 Control of lights, devices, sockets from one interface
 - 🤖 Automation: "if it's dark → turn on the light", "if you're gone → turn everything off"
@@ -27,4 +27,5 @@ title: "Home Assistant: Intelligent Core of Your Home"
 **For the `hass` group:**
 Full access to configuration, integrations, logs, and backups.
 
-**Access:** `home.potatoenergy.ru` • according to Potato Energy credentials (only according to the rights of the `hass` group)
+**Access:**
+`home.potatoenergy.ru` • according to Potato Energy credentials (only according to the rights of the `hass` group)

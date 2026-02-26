@@ -27,5 +27,8 @@ title: "Mastodon: Your Federated Space"
 **For moderators:**
 Tools for reporting, silencing/blocking, and federal rules are all in the admin panel.
 
-**Status:** https://status.potatoenergy.ru/history/mastodon
-**Access:** [social.potatoenergy.ru](https://social.potatoenergy.ru/) • according to Potato Energy credentials
+**Status:**
+https://status.potatoenergy.ru/history/mastodon
+
+**Access:**
+[social.potatoenergy.ru](https://social.potatoenergy.ru/) • according to Potato Energy credentials

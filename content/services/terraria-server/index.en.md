@@ -28,5 +28,8 @@ title: "Terraria: Adventures on potato Energy"
 **Rules:**
 No cheating, respect other people's buildings, don't spam the chat. The details are on the server.
 
-**Status:** https://status.potatoenergy.ru/history/terraria
-**Access:** `connect.potatoenergy.ru:7777` • public, no registration required
+**Status:**
+https://status.potatoenergy.ru/history/terraria
+
+**Access:**
+`connect.potatoenergy.ru:7777` • public, no registration required

@@ -28,5 +28,8 @@ title: "Minecraft: Безграничный мир картофельной эн
 **Правила:**
 Без гриферства, уважайте чужие постройки, координируйтесь в чате. Детали - на сервере.
 
-**Статус:** https://status.potatoenergy.ru/history/minecraft
-**Доступ:** `connect.potatoenergy.ru:25565` • публичный, при входе требуется регистрация
+**Статус:**
+https://status.potatoenergy.ru/history/minecraft
+
+**Доступ:**
+`connect.potatoenergy.ru:25565` • публичный, при входе требуется регистрация

@@ -27,5 +27,8 @@ title: "Nextcloud: Ваше цифровое рабочее пространст
 **Для администраторов:**
 Управление квотами, внешними хранилищами, аудит логов, интеграция с Authelia.
 
-**Статус:** https://status.potatoenergy.ru/history/nextcloud
-**Доступ:** [cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/) • по учётным данным Potato Energy
+**Статус:**
+https://status.potatoenergy.ru/history/nextcloud
+
+**Доступ:**
+[cloud.potatoenergy.ru](https://cloud.potatoenergy.ru/) • по учётным данным Potato Energy

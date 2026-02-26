@@ -27,5 +27,8 @@ title: "Drawpile: Collaborative Creativity"
 **Rules:**
 Respect the creativity of others, do not spam in the chat, coordinate actions. The details can be found in the session description.
 
-**Status:** https://status.potatoenergy.ru/history/drawpile
-**Access:** `connect.potatoenergy.ru:27750` • public, no registration required
+**Status:**
+https://status.potatoenergy.ru/history/drawpile
+
+**Access:**
+`connect.potatoenergy.ru:27750` • public, no registration required
