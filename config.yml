@@ -215,35 +215,32 @@ params:
   social:
     fediverse_creator: '@ponfertato@potatoenergy.ru'
   socialIcons:
-  - name: discord
-    title: Join us on Discord
-    url: https://discord.gg/GH4PbUfzXR
-  - name: telegram
-    title: Join us on Telegram
-    url: https://t.me/potatoenergy
-  - name: vk
-    title: Join us on VK
-    url: https://vk.com/potatoenergy
-  - name: steam
-    title: Join us on Steam
-    url: https://steamcommunity.com/groups/potatoenergy
-  - name: matrix
-    title: Join us on Matrix
-    url: https://matrix.to/#/#potatoenergy:matrix.org
-  - name: codeberg
-    title: View Source on Codeberg
-    url: https://codeberg.org/potatoenergy
-  - name: github
-    title: View Source on Github
-    url: https://github.com/potatoenergy
-  - name: email
-    params:
-      external: true
-    title: Mail
-    url: mailto:mail@potatoenergy.ru
-  - name: rss
-    title: RSS
-    url: index.xml
+    - name: discord
+      title: Join us on Discord
+      url: https://discord.gg/GH4PbUfzXR
+    - name: telegram
+      title: Join us on Telegram
+      url: https://t.me/potatoenergy
+    - name: vk
+      title: Join us on VK
+      url: https://vk.com/potatoenergy
+    - name: steam
+      title: Join us on Steam
+      url: https://steamcommunity.com/groups/potatoenergy
+    - name: codeberg
+      title: View Source on Codeberg
+      url: https://codeberg.org/potatoenergy
+    - name: github
+      title: View Source on Github
+      url: https://github.com/potatoenergy
+    - name: email
+      params:
+        external: true
+      title: Mail
+      url: mailto:mail@potatoenergy.ru
+    - name: rss
+      title: RSS
+      url: index.xml
   title: Potato Energy
   useCustomAnalytics: false
 theme: PaperMod
