@@ -68,6 +68,13 @@ languages:
           *«Because even space technology starts with Earth potatoes.»*
         title: Potato Energy
     title: Potato Energy
+    footer:
+      - name: Privacy
+        url: /privacy/
+        weight: 1
+      - name: Terms
+        url: /terms/
+        weight: 2
     weight: 1
   ru:
     languageName: ':ru:'
@@ -128,6 +135,13 @@ languages:
           *«Потому что даже космические технологии начинаются с земного картофеля»*
         title: Картофельная Энергия
     title: Картофельная Энергия
+    footer:
+      - name: Privacy
+        url: /privacy/
+        weight: 1
+      - name: Terms
+        url: /terms/
+        weight: 2
     weight: 2
 mainsections: [ "posts", "news" ]
 markup:
