@@ -46,6 +46,12 @@ extendProfileMode:
     - name: bluesky
       title: bluesky
       url: https://bsky.app/profile/ponfertato.potatoenergy.ru
+    - name: mastodon
+      title: mastodon
+      url: https://social.potatoenergy.ru/@ponfertato
+    - name: nextcloud
+      title: nextcloud
+      url: https://cloud.potatoenergy.ru/u/ponfertato
     - name: discord
       title: discord
       url: https://discordapp.com/users/ponfertato
@@ -55,6 +61,9 @@ extendProfileMode:
     - name: vk
       title: vk
       url: https://vk.com/ponfertato
+    - name: max
+      title: max
+      url: https://max.ru/u/f9LHodD0cOKnC62lqxLZkv1WjyI_o1sYy9xqQFVTS0sCiILUvOsNqhC5H5s
     - name: steam
       title: steam
       url: https://steamcommunity.com/profiles/ponfertato
