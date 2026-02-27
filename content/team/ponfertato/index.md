@@ -10,7 +10,7 @@ aliases: ["/ponfertato"]
 author: ["ponfertato"]
 comments: false
 social:
-  fediverse_creator: "@ponfertato@potatoenergy.ru"
+  fediverse_creator: "@ponfertato@social.potatoenergy.ru"
 cover:
   alt: "Обложка био"
   hidden: false

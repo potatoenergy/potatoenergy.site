@@ -14,7 +14,7 @@ author: ["ponfertato"]
 canonicalURL: ""
 comments: false
 social:
-  fediverse_creator: "@ponfertato@potatoenergy.ru"
+  fediverse_creator: "@ponfertato@social.potatoenergy.ru"
 cover:
   alt: "Bio cover"
   caption: ""

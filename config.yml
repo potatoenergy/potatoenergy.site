@@ -3,7 +3,7 @@ baseURL: https://potatoenergy.ru/
 buildDrafts: false
 buildExpired: false
 buildFuture: false
-copyright: © 2023-2025 **[Potato Energy Team](https://potatoenergy.ru/)**
+copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)**
 defaultContentLanguage: ru
 disableKinds: [ '404' ]
 enableEmoji: true
@@ -213,7 +213,7 @@ params:
     iconHeight: 35
     text: Potato Energy
   social:
-    fediverse_creator: '@ponfertato@potatoenergy.ru'
+    fediverse_creator: '@ponfertato@social.potatoenergy.ru'
   socialIcons:
     - name: discord
       title: Join us on Discord
