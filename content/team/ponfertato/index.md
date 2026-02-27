@@ -56,7 +56,7 @@ extendProfileMode:
       url: https://t.me/ponfertato
     - name: vk
       title: vk
-      url: https://vk.com/ponfertato
+      url: https://vk.ru/ponfertato
     - name: max
       title: max
       url: https://max.ru/u/f9LHodD0cOKnC62lqxLZkv1WjyI_o1sYy9xqQFVTS0sCiILUvOsNqhC5H5s
