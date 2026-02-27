@@ -42,6 +42,9 @@ extendProfileMode:
     - name: mastodon
       title: mastodon
       url: https://social.potatoenergy.ru/@ponfertato
+    - name: x
+      title: x
+      url: https://x.com/ponfertato
     - name: nextcloud
       title: nextcloud
       url: https://cloud.potatoenergy.ru/u/ponfertato
