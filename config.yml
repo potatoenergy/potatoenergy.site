@@ -3,13 +3,13 @@ baseURL: https://potatoenergy.ru/
 buildDrafts: false
 buildExpired: false
 buildFuture: false
-copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)**
 defaultContentLanguage: ru
 disableKinds: [ '404' ]
 enableEmoji: true
 enableRobotsTXT: true
 languages:
   en:
+    copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)** · [Privacy](/privacy/) · [Terms](/terms/)
     languageName: ':uk:'
     menu:
       main:
@@ -68,15 +68,9 @@ languages:
           *«Because even space technology starts with Earth potatoes.»*
         title: Potato Energy
     title: Potato Energy
-    footer:
-      - name: Privacy
-        url: /privacy/
-        weight: 1
-      - name: Terms
-        url: /terms/
-        weight: 2
     weight: 1
   ru:
+    copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)** · [Конфиденциальность](/privacy/) · [Условия](/terms/)
     languageName: ':ru:'
     menu:
       main:
@@ -135,13 +129,6 @@ languages:
           *«Потому что даже космические технологии начинаются с земного картофеля»*
         title: Картофельная Энергия
     title: Картофельная Энергия
-    footer:
-      - name: Privacy
-        url: /privacy/
-        weight: 1
-      - name: Terms
-        url: /terms/
-        weight: 2
     weight: 2
 mainsections: [ "posts", "news" ]
 markup:
