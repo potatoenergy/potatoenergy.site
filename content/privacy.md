@@ -1,8 +1,20 @@
 ---
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+canonicalURL: "https://potatoenergy.ru/privacy"
 comments: false
 description: "Обработка данных в домашнем проекте Potato Energy"
+disableAnchoredHeadings: true
+disableShare: true
+hideFooter: false
+hideSummary: true
+hidemeta: true
+robotsNoIndex: false
+searchHidden: true
+showtoc: false
 slug: "privacy"
 title: "Политика конфиденциальности"
+tocopen: false
 ---
 
 # Политика конфиденциальности
@@ -61,7 +73,7 @@ title: "Политика конфиденциальности"
 
 - По явному запросу пользователя (экспорт учётной записи или файлов);
 - По требованию уполномоченных государственных органов Российской Федерации в рамках действующего законодательства;
-- В рамках работы федеративных сервисов (Nextcloud, Mastodon) — публичные данные могут быть доступны другим инстансам посредством протокола ActivityPub.
+- В рамках работы федеративных сервисов (Nextcloud, Mastodon) - публичные данные могут быть доступны другим инстансам посредством протокола ActivityPub.
 
 ## 6. Удаление данных
 

@@ -1,40 +1,50 @@
 ---
-ShowBreadCrumbs: false
-ShowCodeCopyButtons: false
-ShowPostNavLinks: false
-ShowReadingTime: false
-ShowRssButtonInSectionTermList: false
-ShowWordCount: false
-UseHugoToc: false
-aliases: ["/ponfertato"]
-author: ["ponfertato"]
-comments: false
-social:
-  fediverse_creator: "@ponfertato@social.potatoenergy.ru"
+ShowBreadCrumbs: false # Хлебные крошки
+ShowCodeCopyButtons: false # Кнопка копирования кода
+ShowPostNavLinks: false # ← Пред. | След. →
+ShowReadingTime: false # Время чтения
+ShowRssButtonInSectionTermList: false # RSS в списках
+ShowWordCount: false # Количество слов
+UseHugoToc: false # TOC от Hugo
+aliases: ["/ponfertato"] # Редиректы
+author: ["ponfertato"] # Автор страницы
+canonicalURL: "https://potatoenergy.ru/ponfertato" # Canonical URL
+categories: ["Команда"] # Категории
+comments: false # Система комментариев
+description: "Гаджет-мастер, технологический эксперт 🥔" # Meta description
+disableAnchoredHeadings: true # Якоря у заголовков (#)
+disableHLJS: true # Подсветка синтаксиса
+disableShare: false # Кнопки шеринга
+hideFooter: false # Скрыть футер
+hideSummary: true # Скрыть анонс в списках
+hidemeta: true # Скрыть дату, теги, автора
+keywords: ["Кирилл", "ponfertato", "Potato Energy", "Potato Energy Team"] # Meta keywords
+linkTitle: "Ponfertato" # Короткое название для меню
+robotsNoIndex: false # Индексация поисковиками
+searchHidden: true # Поиск по сайту
+showtoc: false # Оглавление страницы
+summary: ponfertato # Анонс в списках постов
+tags: ["bio"] # Теги страницы
+title: "Ponfertato" # Заголовок страницы
+tocopen: false # Оглавление развёрнуто
 cover:
-  alt: "Обложка био"
-  hidden: false
-  image: "images/ponfertato.jpg"
-  relative: true
-  responsiveImages: true
-disableAnchoredHeadings: true
-disableHLJS: true
-disableShare: false
-hideFooter: true
-hideSummary: true
-hidemeta: true
-robotsNoIndex: false
-searchHidden: true
-showtoc: false
-summary: ponfertato
-title: Ponfertato
-tocopen: false
+  alt: "Обложка био" # Alt-текст
+  hidden: false # Скрыть обложку
+  hiddenInList: false # Скрыть в списках
+  hiddenInSingle: false # Скрыть на странице
+  image: "images/ponfertato.jpg" # Изображение обложки
+  relative: true # Путь от /static
+  responsiveImages: true # Srcset для экранов
+social:
+  fediverse_creator: "@ponfertato@social.potatoenergy.ru" # Fediverse
 extendProfileMode:
-  # imageUrl: images/icon.png
-  # imageTitle: "Potato Energy Logo"
-  enabled: true
-  # title: "Кирилл Плотников"
-  # subtitle: "Гаджет-мастер, технологический эксперт и преданный картофанатор 🥔 а так же системный администратор Cisco/NauSoft"
+  # imageHeight: 120                          # Высота аватара
+  # imageTitle: "Potato Energy Logo"          # Alt аватара
+  # imageUrl: "images/icon.png"               # Аватар
+  # imageWidth: 120                           # Ширина аватара
+  # subtitle: "Гаджет-мастер... 🥔"           # Подзаголовок
+  # title: "Кирилл Плотников"                 # Заголовок профиля
+  enabled: true # Режим профиля
   socialIcons:
     - name: bluesky
       title: bluesky

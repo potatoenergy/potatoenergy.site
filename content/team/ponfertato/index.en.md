@@ -1,8 +1,5 @@
 ---
-CanonicalLinkText: ""
-ShareButtons: [""]
 ShowBreadCrumbs: false
-ShowCanonicalLink: ""
 ShowCodeCopyButtons: false
 ShowPostNavLinks: false
 ShowReadingTime: false
@@ -11,37 +8,37 @@ ShowWordCount: false
 UseHugoToc: false
 aliases: ["/en/ponfertato"]
 author: ["ponfertato"]
-canonicalURL: ""
+canonicalURL: "https://potatoenergy.ru/ponfertato"
+categories: ["Team"]
 comments: false
-social:
-  fediverse_creator: "@ponfertato@social.potatoenergy.ru"
-cover:
-  alt: "Bio cover"
-  caption: ""
-  hidden: false
-  image: "images/ponfertato.jpg"
-  relative: true
-  responsiveImages: true
-description: ""
+description: "Gadget master, technology expert 🥔"
 disableAnchoredHeadings: true
 disableHLJS: true
 disableShare: false
-hideFooter: true
+hideFooter: false
 hideSummary: true
 hidemeta: true
+keywords: ["Kirill", "ponfertato", "Potato Energy", "Potato Energy Team"]
+linkTitle: "Ponfertato"
 robotsNoIndex: false
 searchHidden: true
 showtoc: false
 summary: /en/ponfertato
-title: Ponfertato
+tags: ["bio"]
+title: "Ponfertato"
 tocopen: false
-weight: ""
+cover:
+  alt: "Bio Cover"
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
+  image: "images/ponfertato.jpg"
+  relative: true
+  responsiveImages: true
+social:
+  fediverse_creator: "@ponfertato@social.potatoenergy.ru"
 extendProfileMode:
-  # imageUrl: images/icon.png
-  # imageTitle: "Potato Energy Logo"
   enabled: true
-  # title: "Kirill Plotnikov"
-  # subtitle: "Gadget wizard, technology expert and dedicated potato fanatic 🥔 as well as Cisco/NauSoft system administrator"
   socialIcons:
     - name: bluesky
       title: bluesky

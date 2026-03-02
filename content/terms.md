@@ -1,8 +1,20 @@
 ---
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+canonicalURL: "https://potatoenergy.ru/terms"
 comments: false
 description: "Правила использования сервисов Potato Energy"
+disableAnchoredHeadings: true
+disableShare: true
+hideFooter: false
+hideSummary: true
+hidemeta: true
+robotsNoIndex: false
+searchHidden: true
+showtoc: false
 slug: "terms"
 title: "Условия использования"
+tocopen: false
 ---
 
 # Условия использования

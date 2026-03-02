@@ -1,8 +1,20 @@
 ---
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+canonicalURL: "https://potatoenergy.ru/en/privacy"
 comments: false
-description: "Data handling in the Potato Energy home project"
-slug: "privacy"
+description: "Data processing in Potato Energy home project"
+disableAnchoredHeadings: true
+disableShare: true
+hideFooter: false
+hideSummary: true
+hidemeta: true
+robotsNoIndex: false
+searchHidden: true
+showtoc: false
+slug: "en/privacy"
 title: "Privacy Policy"
+tocopen: false
 ---
 
 # Privacy Policy
