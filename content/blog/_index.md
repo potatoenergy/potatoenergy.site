@@ -18,4 +18,4 @@ title: "Техноблог Картофельной Энергии"
 ---
 
 > **Следуйте за нами:**  
-> [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [VK](https://vk.com/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)
+> [VK](https://vk.com/potatoenergy) | [MAX](https://max.ru/join/aMW3x1JD8cGepIXmQ77iYrQn4EDTgZkv27V4oU5XKrs)| [Steam](https://steamcommunity.com/groups/potatoenergy) | [RSS](/index.xml)

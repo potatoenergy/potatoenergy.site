@@ -121,6 +121,8 @@ tocopen: false
 10.3. Questions related to the processing of personal data are sent to:
 
 - Email address: ponfertato@potatoenergy.ru
+- Discord: ponfertato
 - Telegram: @ponfertato
+- Matrix: @ponfertato:matrix.org
 
 10.4. The Operator reserves the right to make changes to this Policy. The current version is published at `/privacy'.

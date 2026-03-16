@@ -74,6 +74,9 @@ languages:
         - name: telegram
           title: Join us on Telegram
           url: https://t.me/potatoenergy
+        - name: matrix
+          title: Join us on Matrix
+          url: https://matrix.to/#/#potatoenergy:matrix.org
         - name: steam
           title: Join us on Steam
           url: https://steamcommunity.com/groups/potatoenergy

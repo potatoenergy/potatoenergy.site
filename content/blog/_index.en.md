@@ -18,4 +18,4 @@ title: "Potato Energy Technoblog"
 ---
 
 > **Follow us:**
-> [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [VK](https://vk.com/potatoenergy) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [RSS](/index.xml)
+> [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [RSS](/index.xml)
