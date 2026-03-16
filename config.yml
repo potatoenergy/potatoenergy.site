@@ -67,6 +67,30 @@ languages:
 
           *«Because even space technology starts with Earth potatoes.»*
         title: Potato Energy
+      socialIcons:
+        - name: discord
+          title: Join us on Discord
+          url: https://discord.gg/GH4PbUfzXR
+        - name: telegram
+          title: Join us on Telegram
+          url: https://t.me/potatoenergy
+        - name: steam
+          title: Join us on Steam
+          url: https://steamcommunity.com/groups/potatoenergy
+        - name: codeberg
+          title: View the source code on Codeberg
+          url: https://codeberg.org/potatoenergy
+        - name: github
+          title: View the source code on Github
+          url: https://github.com/potatoenergy
+        - name: email
+          params:
+            external: true
+          title: Mail
+          url: mailto:mail@potatoenergy.ru
+        - name: rss
+          title: RSS feed
+          url: index.xml
     title: Potato Energy
     weight: 1
   ru:
@@ -128,6 +152,30 @@ languages:
 
           *«Потому что даже космические технологии начинаются с земного картофеля»*
         title: Картофельная Энергия
+      socialIcons:
+        - name: vk
+          title: Присоединяйтесь к нам в VK
+          url: https://vk.com/potatoenergy
+        - name: max
+          title: Присоединяйтесь к нам в MAX
+          url: https://max.ru/join/aMW3x1JD8cGepIXmQ77iYrQn4EDTgZkv27V4oU5XKrs
+        - name: steam
+          title: Присоединяйтесь к нам в Steam
+          url: https://steamcommunity.com/groups/potatoenergy
+        - name: codeberg
+          title: Посмотреть исходный код на Codeberg
+          url: https://codeberg.org/potatoenergy
+        - name: github
+          title: Посмотреть исходный код на Github
+          url: https://github.com/potatoenergy
+        - name: email
+          params:
+            external: true
+          title: Почта
+          url: mailto:mail@potatoenergy.ru
+        - name: rss
+          title: RSS-канал
+          url: index.xml
     title: Картофельная Энергия
     weight: 2
 mainsections: [ "posts", "news" ]
@@ -215,33 +263,6 @@ params:
     text: Potato Energy
   social:
     fediverse_creator: '@ponfertato@social.potatoenergy.ru'
-  socialIcons:
-    - name: discord
-      title: Join us on Discord
-      url: https://discord.gg/GH4PbUfzXR
-    - name: telegram
-      title: Join us on Telegram
-      url: https://t.me/potatoenergy
-    - name: vk
-      title: Join us on VK
-      url: https://vk.com/potatoenergy
-    - name: steam
-      title: Join us on Steam
-      url: https://steamcommunity.com/groups/potatoenergy
-    - name: codeberg
-      title: View Source on Codeberg
-      url: https://codeberg.org/potatoenergy
-    - name: github
-      title: View Source on Github
-      url: https://github.com/potatoenergy
-    - name: email
-      params:
-        external: true
-      title: Mail
-      url: mailto:mail@potatoenergy.ru
-    - name: rss
-      title: RSS
-      url: index.xml
   title: Potato Energy
   useCustomAnalytics: false
 theme: PaperMod
