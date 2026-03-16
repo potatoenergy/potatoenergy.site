@@ -2,81 +2,81 @@
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["ssh", "windows", "tutorial"]
 date: "2026-03-16T15:25:00+03:00"
-description: "Install and configure OpenSSH server on Windows 10/11 and Server 2019+. Fast, via PowerShell."
+description: "Установка и настройка OpenSSH сервера на Windows 10/11 и Server 2019+. Быстро, через PowerShell."
 draft: false
 series: ["SSH"]
 slug: "openssh"
 tags: ["windows", "ssh", "openssh", "powershell", "server"]
-title: "OpenSSH on Windows: Server Setup"
+title: "OpenSSH на Windows: Установка сервера"
 ---
 
-OpenSSH is a tool for secure remote access via the SSH protocol. It encrypts all traffic, supports key-based authentication, and works on Windows, Linux, and macOS.
+OpenSSH - инструмент для безопасного удалённого доступа по протоколу SSH. Шифрует весь трафик, поддерживает аутентификацию по ключам, работает на Windows, Linux, macOS.
 
-> 💡 After setup, you can connect to your Windows PC like a Linux server: `ssh user@192.168.1.100`
-
----
-
-## Requirements
-
-- **OS**: Windows 10 (1809+), Windows 11, Windows Server 2019/2022
-- **Privileges**: Administrator
-- **Network**: Access to port 22 (local or remote)
+> 💡 После настройки ты сможешь подключаться к своему Windows-ПК как к обычному Linux-серверу: `ssh user@192.168.1.100`
 
 ---
 
-## Installation (3 ways)
+## Требования
 
-### Option 1: PowerShell (recommended)
+- **ОС**: Windows 10 (1809+), Windows 11, Windows Server 2019/2022
+- **Права**: Администратор
+- **Сеть**: Доступ к порту 22 (локально или извне)
+
+---
+
+## Установка (3 способа)
+
+### Способ 1: PowerShell (рекомендуется)
 
 ```powershell
-# Run as Administrator
-# Install OpenSSH server
+# Запусти от имени Администратора
+# Установить OpenSSH сервер
 Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
-# Verify installation
+# Проверить установку
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 ```
 
-### Option 2: DISM (alternative)
+### Способ 2: DISM (альтернатива)
 
 ```powershell
 dism /Online /Add-Capability /CapabilityName:OpenSSH.Server~~~~0.0.1.0
 ```
 
-### Option 3: Via Settings (GUI)
+### Способ 3: Через настройки (GUI)
 
-1. Settings → Apps → Optional features
-2. "Add a feature" → find "OpenSSH Server" → Install
+1. Настройки → Приложения → Дополнительные компоненты
+2. «Добавить компонент» → найди «OpenSSH Server» → Установить
 
 ---
 
-## Configure the service
+## Настройка службы
 
 ```powershell
-# Run as Administrator
+# Запустить от имени Администратора
 
-# Enable auto-start for sshd
+# Включить автозапуск sshd
 Set-Service -Name sshd -StartupType Automatic
 
-# Start the service
+# Запустить службу
 Start-Service sshd
 
-# Check status
+# Проверить статус
 Get-Service sshd
 
-# Verify port 22 is listening
+# Убедиться, что порт 22 слушается
 netstat -ano | findstr :22
 ```
 
 ---
 
-## Firewall
+## Брандмауэр
 
 ```powershell
-# Check for OpenSSH rule
+# Проверить правило для OpenSSH
 Get-NetFirewallRule -Name *OpenSSH-Server* | Select Name, Enabled
 
-# If missing, create it
+# Если правила нет - создать
 New-NetFirewallRule -Name sshd `
   -DisplayName 'OpenSSH Server' `
   -Enabled True `
@@ -89,49 +89,49 @@ New-NetFirewallRule -Name sshd `
 
 ---
 
-## Test connection
+## Проверка подключения
 
 ```powershell
-# From the same PC
+# С этого же ПК
 ssh localhost
 
-# From another device on the network
-ssh <your_username>@<Windows_IP>
+# С другого устройства в сети
+ssh <твой_пользователь>@<IP_адрес_Windows>
 
-# Example:
+# Пример:
 ssh kirill@192.168.1.100
 ```
 
-> 💡 First connection will ask to confirm the host key fingerprint - type `yes`.
+> 💡 Первый вход запросит подтверждение отпечатка ключа - введи `yes`.
 
 ---
 
-## Key-based authentication (recommended)
+## Аутентификация по ключам (рекомендуется)
 
-### On the client (where you connect from)
+### На клиенте (где подключаешься)
 
 ```bash
-# Generate key pair (if you don't have one)
+# Создать пару ключей (если нет)
 ssh-keygen -t ed25519 -C "kirill@potatoenergy.ru"
 
-# Copy public key to server
-# For Windows server - manually:
+# Скопировать публичный ключ на сервер
+# Для Windows-сервера - вручную:
 type $env:USERPROFILE\.ssh\id_ed25519.pub
-# Copy the output
+# Скопируй вывод
 ```
 
-### On the server (Windows)
+### На сервере (Windows)
 
 ```powershell
-# Create .ssh folder in user profile
+# Создать папку .ssh в профиле пользователя
 mkdir $env:USERPROFILE\.ssh -Force
 
-# Create/edit authorized_keys
+# Создать/отредактировать authorized_keys
 notepad $env:USERPROFILE\.ssh\authorized_keys
 
-# Paste the public key (single line), save
+# Вставить публичный ключ (одной строкой), сохранить
 
-# Set correct permissions (REQUIRED)
+# Задать правильные права (ОБЯЗАТЕЛЬНО)
 $acl = Get-Acl $env:USERPROFILE\.ssh\authorized_keys
 $acl.SetAccessRuleProtection($true, $false)
 $rule = New-Object System.Security.AccessControl.FileSystemAccessRule(
@@ -140,45 +140,45 @@ $acl.AddAccessRule($rule)
 Set-Acl $env:USERPROFILE\.ssh\authorized_keys $acl
 ```
 
-### Disable password login (optional, for security)
+### Отключить вход по паролю (опционально, для безопасности)
 
 ```powershell
-# Edit config
+# Отредактировать конфиг
 notepad C:\ProgramData\ssh\sshd_config
 
-# Find and change:
+# Найти и изменить строки:
 # PasswordAuthentication no
 # PubkeyAuthentication yes
 
-# Restart service
+# Перезапустить службу
 Restart-Service sshd
 ```
 
 ---
 
-## Config: useful settings
+## Конфигурация: полезные настройки
 
-File: `C:\ProgramData\ssh\sshd_config`
+Файл: `C:\ProgramData\ssh\sshd_config`
 
 ```ini
-# Allow only specific users
+# Только определённые пользователи
 AllowUsers kirill admin
 
-# Change port (if 22 is busy)
+# Сменить порт (если 22 занят)
 Port 2222
 
-# Disable root login
+# Запретить root-логин
 PermitRootLogin no
 
-# Inactivity timeout
+# Таймаут неактивности
 ClientAliveInterval 300
 ClientAliveCountMax 2
 
-# Logging
+# Логирование
 LogLevel VERBOSE
 ```
 
-After changes:
+После правок:
 
 ```powershell
 Restart-Service sshd
@@ -186,29 +186,29 @@ Restart-Service sshd
 
 ---
 
-## Troubleshooting
+## Частые проблемы
 
 ```powershell
-# Service won't start
-→ Check logs: Get-WinEvent -LogName "OpenSSH/Operational" -MaxEvents 10
+# Служба не запускается
+→ Проверь логи: Get-WinEvent -LogName "OpenSSH/Operational" -MaxEvents 10
 
-# Port 22 not listening
-→ Check firewall: Get-NetFirewallRule -Name sshd
-→ Check service status: Get-Service sshd
+# Порт 22 не слушается
+→ Проверь брандмауэр: Get-NetFirewallRule -Name sshd
+→ Проверь, что служба запущена: Get-Service sshd
 
 # "Permission denied (publickey,password)"
-→ Verify permissions on authorized_keys (owner read-only)
-→ Ensure public key is pasted as one line, no line breaks
+→ Проверь права на authorized_keys (должен читать только владелец)
+→ Убедись, что публичный ключ вставлен одной строкой, без переносов
 
-# Connected but no file access
-→ Check user permissions on Windows folders
-→ Try running terminal as Administrator on the client
+# Подключение есть, но нет прав на файлы
+→ Проверь права пользователя на папки в Windows
+→ Попробуй запустить терминал от имени администратора на клиенте
 ```
 
 ---
 
-## Links
+## Ссылки
 
-- 🌐 [Win32-OpenSSH official repo](https://github.com/PowerShell/Win32-OpenSSH)
-- 📘 [Microsoft docs](https://learn.microsoft.com/windows-server/administration/openssh/openssh_install_firstuse)
-- 🔑 [sshd_config generator](https://www.ssh.com/academy/ssh/sshd_config)
+- 🌐 [Официальный репозиторий Win32-OpenSSH](https://github.com/PowerShell/Win32-OpenSSH)
+- 📘 [Документация Microsoft](https://learn.microsoft.com/ru-ru/windows-server/administration/openssh/openssh_install_firstuse)
+- 🔑 [Генератор конфигов sshd](https://www.ssh.com/academy/ssh/sshd_config)
