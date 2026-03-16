@@ -45,7 +45,7 @@ tocopen: false
 
 2.2. Special categories of personal data are not processed.
 
-##3. Data Storage
+## 3. Data Storage
 
 3.1. The main data is stored locally on the Potato Energy server located on the territory of the Russian Federation.
 
@@ -63,7 +63,7 @@ tocopen: false
 - Automatic deletion of access logs after 90 days;
 - The absence of third-party trackers, advertising systems and analytical services.
 
-  4.2. Organizational security measures include restriction of access to data based on the principle of minimum privileges and regular security monitoring.
+4.2. Organizational security measures include restriction of access to data based on the principle of minimum privileges and regular security monitoring.
 
 ## 5. Data transmission
 
@@ -83,7 +83,7 @@ tocopen: false
 
 6.3. Data deletion is carried out within 30 days from the date of confirmation of the request.
 
-##7. Using cookies
+## 7. Using cookies
 
 7.1. The Services use only technical cookies necessary to maintain the authorization session and save interface preferences.
 
@@ -98,7 +98,7 @@ tocopen: false
 - Request the export of personal data in a machine-readable format;
 - Revoke consent to the processing of personal data.
 
-  8.2. In order to exercise the rights provided for in clause 8.1, the user sends a request to the operator using the contacts specified in Section 9.
+8.2. In order to exercise the rights provided for in clause 8.1, the user sends a request to the operator using the contacts specified in Section 9.
 
 ## 9. Limitations and Disclaimers of Guarantees
 
@@ -110,7 +110,7 @@ tocopen: false
 - Complete data security in case of force majeure circumstances;
 - Compatibility of services with all devices and software.
 
-  9.3. The User is recommended to backup important data independently.
+9.3. The User is recommended to backup important data independently.
 
 ## 10. Final provisions
 
@@ -122,6 +122,5 @@ tocopen: false
 
 - Email address: ponfertato@potatoenergy.ru
 - Telegram: @ponfertato
-- VK: vk.com/ponfertato
 
-  10.4. The Operator reserves the right to make changes to this Policy. The current version is published at `/privacy'.
+10.4. The Operator reserves the right to make changes to this Policy. The current version is published at `/privacy'.

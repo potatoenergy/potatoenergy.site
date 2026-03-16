@@ -37,7 +37,7 @@ The user is allowed to:
 
 2.4. Publish content in compliance with the community rules and these Terms.
 
-##3. Prohibited actions
+## 3. Prohibited actions
 
 The user is prohibited from:
 
@@ -63,9 +63,9 @@ The user is prohibited from:
 - data integrity and safety;
 - no errors or interruptions in operation.
 
-  4.3. The Services may be changed, suspended or terminated at any time without prior notice.
+4.3. The Services may be changed, suspended or terminated at any time without prior notice.
 
-  4.4. The User assumes all risks associated with the use of the services.
+4.4. The User assumes all risks associated with the use of the services.
 
 ## 5. User Responsibilities
 
@@ -77,7 +77,7 @@ The user is prohibited from:
 
 5.4. The User undertakes to respect the rights and privacy of other users.
 
-##6. Termination of access
+## 6. Termination of access
 
 6.1. The Operator has the right to suspend or terminate the user's access to the services in the following cases::
 
@@ -85,9 +85,9 @@ The user is prohibited from:
 - carrying out abusive, malicious or illegal actions;
 - at the operator's own discretion.
 
-  6.2. The User has the right to delete his account through the settings of the service or by contacting the operator.
+6.2. The User has the right to delete his account through the settings of the service or by contacting the operator.
 
-##7. Content and Data
+## 7. Content and Data
 
 7.1. The User retains the rights to the content uploaded to the services.
 
@@ -97,7 +97,7 @@ The user is prohibited from:
 
 7.4. Content that violates the law or these Terms is subject to removal without prior notice.
 
-##8. Third-party services
+## 8. Third-party services
 
 8.1. Individual functions of the services can be integrated with external platforms (GitHub, Discord, Steam, etc.).
 
@@ -105,7 +105,7 @@ The user is prohibited from:
 
 8.3. The Operator is not responsible for the actions, policies or security of third-party services.
 
-##9. Limitation of liability
+## 9. Limitation of liability
 
 9.1. To the extent permitted by applicable law, the operator is not responsible for indirect, incidental or consequential damages resulting from the use of the services.
 
