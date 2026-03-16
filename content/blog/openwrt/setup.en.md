@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["openwrt", "networking", "guide"]
-date: "2026-03-17T00:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Advanced OpenWRT setup: DNS filtering, WireGuard, monitoring, alerts. Configs with explanations."
 draft: false
 series: ["Networking"]

@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["ssh", "windows", "tutorial"]
-date: "2026-03-16T21:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Установка и настройка OpenSSH сервера на Windows 10/11 и Server 2019+. Быстро, через PowerShell."
 draft: false
 series: ["SSH"]

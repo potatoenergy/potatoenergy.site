@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["linux", "arm", "recovery", "guide"]
-date: "2026-03-17T01:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Data recovery and migration on OrangePI: working with eMMC, USB drives, chroot, and rsync."
 draft: false
 series: ["Linux"]

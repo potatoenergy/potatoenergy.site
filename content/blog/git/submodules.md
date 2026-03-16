@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["git", "tutorial"]
-date: "2026-03-16T19:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Шпаргалка по подмодулям Git: добавление, обновление, удаление. Команды и примеры."
 draft: false
 series: ["Git Tips"]

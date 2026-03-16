@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["windows", "linux", "wsl", "tutorial"]
-date: "2026-03-16T22:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "WSL2 in practice: install, configure, integrate with Windows. Developer's guide."
 draft: false
 series: ["Windows Tips"]

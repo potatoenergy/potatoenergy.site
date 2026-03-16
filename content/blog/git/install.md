@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["git", "tutorial", "setup"]
-date: "2026-03-16T20:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Быстрая установка и настройка Git на Windows и Linux. Базовая конфигурация, SSH-ключи, первые шаги."
 draft: false
 series: ["Git"]

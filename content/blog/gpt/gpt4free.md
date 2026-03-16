@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["gpt", "ai", "tutorial"]
-date: "2026-03-16T18:00:00+03:00"
+date: "2026-03-16T15:25:00+03:00"
 description: "Практическое руководство по GPT4Free: установка, настройка и использование бесплатных аналогов GPT-4/5 через Python и TypeScript."
 draft: false
 series: ["GPT4Free"]
