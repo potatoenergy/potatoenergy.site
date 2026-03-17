@@ -40,8 +40,6 @@ lsblk
 df -h
 ```
 
-````
-
 **Ожидаемый вывод**:
 
 - `/dev/mmcblk0` - встроенная eMMC или SD-карта
@@ -316,4 +314,3 @@ dd if=/mnt/usb/test of=/dev/null bs=1M
 - 📦 [Armbian Documentation](https://docs.armbian.com/)
 - 🔧 [rsync Man Page](https://man7.org/linux/man-pages/man1/rsync.1.html)
 - 💾 [eMMC vs SSD Lifespan](https://www.ssdlife.com/)
-````
