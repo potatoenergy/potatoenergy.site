@@ -10,8 +10,6 @@ tags: ["docker", "bash", "cron", "automation", "shutdown"]
 title: "Docker: Scheduled Automatic Shutdown"
 ---
 
-## Introduction
-
 For home servers and test environments, resource saving is important: containers can be stopped and system powered off during nights or off-hours. This guide describes a safe method with state preservation and automatic recovery.
 
 > 💡 Method suits OrangePI, Raspberry Pi, old PCs, and any systems where power efficiency matters.
