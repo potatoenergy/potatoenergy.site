@@ -4,8 +4,8 @@ categories: ["nix", "linux", "containers"]
 date: "2026-03-18T17:25:00+03:00"
 description: "Run Ubuntu/Debian apps on NixOS via Distrobox. Container setup, install, launcher, full cleanup."
 draft: false
-series: ["Nix", "NixOS"]
-slug: "nix-distrobox-apps-en"
+series: ["Nix/NixOS"]
+slug: "distrobox-apps"
 tags: ["nix", "distrobox", "containers", "desktop"]
 title: "NixOS: Running Foreign Apps via Distrobox"
 ---

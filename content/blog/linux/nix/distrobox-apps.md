@@ -4,8 +4,8 @@ categories: ["nix", "linux", "containers"]
 date: "2026-03-18T17:25:00+03:00"
 description: "Запуск программ для Ubuntu/Debian на NixOS через Distrobox. Контейнер, установка, ярлык, полная очистка."
 draft: false
-series: ["Nix", "NixOS"]
-slug: "nix-distrobox-apps"
+series: ["Nix/NixOS"]
+slug: "distrobox-apps"
 tags: ["nix", "distrobox", "containers", "desktop"]
 title: "NixOS: Запуск «чужих» программ через Distrobox"
 ---
