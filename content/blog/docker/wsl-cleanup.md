@@ -78,7 +78,7 @@ powershell.exe -ExecutionPolicy Bypass -File "$HOME\Scripts\docker-clear-wsl.ps1
 
 - Без остановки процессов `Optimize-VHD` не сработает (файл занят)
 - `docker/desktop-reclaim-space` работает внутри WSL, удаляя «призрачные» данные
-- `Mode Full` — максимальное сжатие (медленнее, но эффективнее)
+- `Mode Full` - максимальное сжатие (медленнее, но эффективнее)
 
 ---
 
@@ -131,7 +131,7 @@ Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-TaskScheduler/Operati
 # Размер VHDX до очистки
 Get-ChildItem "$env:LOCALAPPDATA\Docker\wsl\disk\docker_data.vhdx" | Select Name, @{N="SizeGB";E={[math]::Round($_.Length/1GB,2)}}
 
-# После очистки — сравнить значение
+# После очистки - сравнить значение
 ```
 
 ### Статистика Docker

@@ -12,7 +12,7 @@ title: "GitHub CLI: Bulk Delete Old Issues"
 
 Long-running projects accumulate outdated issues: bugs for old versions, features that are no longer relevant, test tickets. Manual deletion is slow and tedious. This script automatically finds and deletes (or marks) old issues by specified labels.
 
-> 💡 Script uses **dry-run by default** — shows what would be deleted, without actual deletion.
+> 💡 Script uses **dry-run by default** - shows what would be deleted, without actual deletion.
 
 ---
 
@@ -56,10 +56,10 @@ gh issue list --repo "$REPO" --state all --limit 1000 \
   ' | \
   while IFS='|' read -r number title url; do
     if [[ "$DRY_RUN" == "true" ]]; then
-      echo "[DRY RUN] ##$number — $title"
+      echo "[DRY RUN] ##$number - $title"
       echo "          $url"
     else
-      echo "🗑  Deleting ##$number — $title"
+      echo "🗑  Deleting ##$number - $title"
       gh issue delete "$REPO" "$number" --yes
       sleep 1  # Small pause to avoid rate limits
     fi
@@ -102,7 +102,7 @@ brew install jq
 # Make script executable
 chmod +x delete-issues.sh
 
-# DRY RUN (safe mode — preview only)
+# DRY RUN (safe mode - preview only)
 ./delete-issues.sh
 
 # ACTUAL DELETION (add --execute flag)
@@ -137,9 +137,9 @@ select(
 
 **Why this way**:
 
-- `split(",")` — allows specifying labels as single string
-- `any(...)` — checks for **any** of specified labels (logical OR)
-- Pipe-delimited output — reliable way to pass titles with spaces
+- `split(",")` - allows specifying labels as single string
+- `any(...)` - checks for **any** of specified labels (logical OR)
+- Pipe-delimited output - reliable way to pass titles with spaces
 
 ---
 
@@ -159,7 +159,7 @@ Replace deletion block with close:
 
 ```bash
 # Instead of gh issue delete:
-echo "🔒 Closing ##$number — $title"
+echo "🔒 Closing ##$number - $title"
 gh issue edit "$REPO" "$number" --state closed
 ```
 
@@ -264,7 +264,7 @@ select(.labels | map(.name) | any(. as $l | $label_array | index($l)))
 - [ ] Tested in dry-run mode, reviewed issue list
 - [ ] Confirmed no critical issues in deletion list
 - [ ] Exported backup if needed: `gh issue list --json ... > backup.json`
-- [ ] Only then — run with `--execute`
+- [ ] Only then - run with `--execute`
 
 ---
 

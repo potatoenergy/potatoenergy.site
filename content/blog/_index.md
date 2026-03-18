@@ -5,17 +5,21 @@ title: "Техноблог Картофельной Энергии"
 
 ### Из недр картофельного ядра 🥔⚙️
 
-**Основные направления**  
+**Основные направления**
 
 ```bash
-#docker → Оптимизация контейнеров и оркестрация  
-#git → GitOps и управление репозиториями  
-#gpt → Интеграция AI в инфраструктуру  
-#linux → Тонкая настройка систем  
-#windows → Гибридные решения
+#docker    → Контейнеры, которые не развариваются: оркестрация, бэкапы, оптимизация
+#git       → Контроль версий без комков: от submodule до GitHub CLI
+#gpt       → AI в инфраструктуре: умные помощники, автоматизация, эксперименты
+#linux     → Системы, которые работают: NixOS, ARM, восстановление, тонкая настройка
+#openwrt   → Роутеры с характером: фильтрация, WireGuard, мониторинг
+#windows   → Гибридные решения: WSL, OpenSSH, интеграция с экосистемой
 ```
 
 ---
 
+> 🥔 _Картофель — это не просто овощ. Это состояние души.  
+> А хороший код — это не просто работа. Это искусство._
+
 > **Следуйте за нами:**  
-> [VK](https://vk.com/potatoenergy) | [MAX](https://max.ru/join/aMW3x1JD8cGepIXmQ77iYrQn4EDTgZkv27V4oU5XKrs)| [Steam](https://steamcommunity.com/groups/potatoenergy) | [RSS](/index.xml)
+> [VK](https://vk.com/potatoenergy) | [MAX](https://max.ru/join/aMW3x1JD8cGepIXmQ77iYrQn4EDTgZkv27V4oU5XKrs) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [RSS](/index.xml)

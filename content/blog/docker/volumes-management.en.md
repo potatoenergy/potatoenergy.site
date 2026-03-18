@@ -40,7 +40,7 @@ docker run --rm \
 
 **Why this method**:
 
-- ✅ One container — all volumes
+- ✅ One container - all volumes
 - ✅ Automatic tar.gz compression
 - ✅ No service stop required (for most scenarios)
 - ✅ Suitable for cron automation
@@ -57,7 +57,7 @@ docker run --rm \
 
 **Features**:
 
-- `:ro` — read-only, protects from modification during backup
+- `:ro` - read-only, protects from modification during backup
 - Direct archive creation without intermediate scripts
 - Suitable for one-time operations
 
@@ -94,7 +94,7 @@ docker stop tmp-redis && docker rm tmp-redis
 
 - Direct volume access from host is complex (path in `/var/lib/docker/volumes/`)
 - `docker cp` preserves file permissions and attributes
-- Containers removed after copy — clean and safe
+- Containers removed after copy - clean and safe
 
 ### Recommendation
 
@@ -124,10 +124,10 @@ docker run --rm -it \
 
 **Breakdown**:
 
-- `docker volume create` — creates target volume
-- `-v old_volume:/from` — mounts source
-- `-v new_volume:/to` — mounts destination
-- `cp -av` — copies with preserved permissions (`-a`) and progress (`-v`)
+- `docker volume create` - creates target volume
+- `-v old_volume:/from` - mounts source
+- `-v new_volume:/to` - mounts destination
+- `cp -av` - copies with preserved permissions (`-a`) and progress (`-v`)
 
 **When to use**:
 
@@ -168,7 +168,7 @@ docker run --rm \
 ### Via cron on host
 
 ```bash
-# /etc/crontabs/root — daily backup at 03:00
+# /etc/crontabs/root - daily backup at 03:00
 0 3 * * * docker run --rm -v postgres_data:/backup/data -v /opt/backup:/archive --entrypoint backup offen/docker-volume-backup:v2
 ```
 

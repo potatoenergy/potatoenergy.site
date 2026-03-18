@@ -131,14 +131,14 @@ chmod +x /usr/local/bin/start_containers.sh
 
 | Step           | Description                                       |
 | -------------- | ------------------------------------------------- |
-| File check     | If missing — containers weren't stopped by script |
+| File check     | If missing - containers weren't stopped by script |
 | `docker start` | Starts containers by saved IDs                    |
 | `rm -f`        | Removes file after successful startup             |
 
 **Why remove file**:
 
-- One-time marker — containers won't restart accidentally
-- After reboot without script — system runs in normal mode
+- One-time marker - containers won't restart accidentally
+- After reboot without script - system runs in normal mode
 
 ---
 
@@ -226,7 +226,7 @@ systemctl list-timers | grep docker-shutdown
 
 - Precise timing (not affected by cron load)
 - Built-in logging via `journalctl`
-- `Persistent=true` — runs missed execution after downtime
+- `Persistent=true` - runs missed execution after downtime
 
 ---
 
