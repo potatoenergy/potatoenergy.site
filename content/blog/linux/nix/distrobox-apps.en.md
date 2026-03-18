@@ -69,9 +69,12 @@ sudo sh -c '
 ```
 
 **Replace placeholders**:
-| `<vendor>` | Vendor name (e.g., `nausoftphone`) |
-| `<package-name>` | Package name in repo |
-| `<url>` | URL to installer image |
+
+| Placeholder      | Description                        |
+| ---------------- | ---------------------------------- |
+| `<vendor>`       | Vendor name (e.g., `nausoftphone`) |
+| `<package-name>` | Package name in repo               |
+| `<url>`          | URL to installer image             |
 
 **Verify**:
 
