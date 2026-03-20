@@ -5,7 +5,7 @@ date: "2026-03-20T13:15:00+03:00"
 description: "Shizuku: Android system capabilities without root. Setup and examples with Obtainium and SAI."
 draft: false
 series: ["Android Tips"]
-slug: "shizuku-guide-en"
+slug: "shizuku-guide"
 tags: ["android", "shizuku", "obtainium", "sai", "adb", "system"]
 title: "Shizuku: Android System Access Without Root"
 ---

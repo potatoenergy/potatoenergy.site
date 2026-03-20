@@ -5,7 +5,7 @@ date: "2026-03-20T13:18:00+03:00"
 description: "Obtainium: automatic app updates directly from source repositories. Setup, filters, Shizuku integration."
 draft: false
 series: ["Android Tips"]
-slug: "obtainium-guide-en"
+slug: "obtainium-guide"
 tags: ["android", "obtainium", "updates", "github", "shizuku", "fdroid"]
 title: "Obtainium: App Updates from Source"
 ---
