@@ -112,7 +112,7 @@ echo "Chrome removed from second space"
 **Auto-launch via Termux + ADB**:
 
 1. Install [Termux](https://f-droid.org/packages/com.termux/)
-2. Install [ADB Keyboard](https://f-droid.org/packages/de.stefanbechtold.simpleterm/) or use `adb tcpip`
+2. Install [ADB Keyboard](https://f-droid.org/packages/com.android.adbkeyboard/) or use `adb tcpip`
 3. Run script on boot via `~/.termux/boot/`
 
 **Limitation**: after phone reboot, script must be run manually (or set up auto-launch via Tasker).

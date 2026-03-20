@@ -112,7 +112,7 @@ echo "Chrome удалён из второго пространства"
 **Автозапуск через Termux + ADB**:
 
 1. Установить [Termux](https://f-droid.org/packages/com.termux/)
-2. Установить [ADB Keyboard](https://f-droid.org/packages/de.stefanbechtold.simpleterm/) или использовать `adb tcpip`
+2. Установить [ADB Keyboard](https://f-droid.org/packages/com.android.adbkeyboard/) или использовать `adb tcpip`
 3. Запустить скрипт при загрузке через `~/.termux/boot/`
 
 **Ограничение**: после перезагрузки телефона нужно запускать скрипт вручную (или настраивать автозапуск через Tasker).
