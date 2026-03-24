@@ -85,6 +85,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Go for deploy
+        uses: actions/setup-go@v4
+        with:
+          go-version: '>=1.23'
       - id: deployment
         name: Deploy to GitVerse Pages
         uses: actions/deploy-pages@v1
