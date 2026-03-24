@@ -3,12 +3,10 @@ baseURL: https://potatoenergy.ru/
 buildDrafts: false
 buildExpired: false
 buildFuture: false
-canonifyURLs: true
 defaultContentLanguage: ru
 disableKinds: [ '404' ]
 enableEmoji: true
 enableRobotsTXT: true
-relativeURLs: true
 languages:
   en:
     copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)** · [Privacy](/privacy/) · [Terms](/terms/)
