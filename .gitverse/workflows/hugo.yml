@@ -74,7 +74,7 @@ jobs:
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
           path: ${{ runner.temp }}/hugo_cache
       - name: Upload pages artifact
-        uses: gitverse/upload-pages-artifact@v1.0.0
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
           retention-days: 1
@@ -84,7 +84,7 @@ jobs:
     steps:
       - id: deployment
         name: Deploy to GitVerse Pages
-        uses: gitverse/deploy-pages@v1.0.0
+        uses: actions/deploy-pages@v1
 name: Build and deploy
 'on':
   push:
