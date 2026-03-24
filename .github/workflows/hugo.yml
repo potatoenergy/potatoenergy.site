@@ -12,7 +12,7 @@ jobs:
       GO_VERSION: 1.26.1
       HUGO_VERSION: 0.157.0
       NODE_VERSION: 24.14.0
-      TZ: Europe/Oslo
+      TZ: Europe/Moscow
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -80,7 +80,7 @@ jobs:
         with:
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
           path: ${{ runner.temp }}/hugo_cache
-      - name: Upload artifact
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
