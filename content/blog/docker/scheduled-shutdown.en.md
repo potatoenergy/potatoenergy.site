@@ -5,7 +5,7 @@ date: "2026-03-17T09:20:00+03:00"
 description: "Automatic Docker container shutdown and system power-off on schedule. Scripts, cron setup, recovery."
 draft: false
 series: ["Docker"]
-slug: "docker-scheduled-shutdown-en"
+slug: "scheduled-shutdown"
 tags: ["docker", "bash", "cron", "automation", "shutdown"]
 title: "Docker: Scheduled Automatic Shutdown"
 ---

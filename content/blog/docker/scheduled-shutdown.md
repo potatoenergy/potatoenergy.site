@@ -5,7 +5,7 @@ date: "2026-03-17T09:20:00+03:00"
 description: "Автоматическая остановка Docker-контейнеров и выключение системы по расписанию. Скрипты, настройка cron, восстановление."
 draft: false
 series: ["Docker"]
-slug: "docker-scheduled-shutdown"
+slug: "scheduled-shutdown"
 tags: ["docker", "bash", "cron", "automation", "shutdown"]
 title: "Docker: Автоматическое выключение по расписанию"
 ---

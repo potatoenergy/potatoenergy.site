@@ -5,7 +5,7 @@ date: "2026-03-17T09:30:00+03:00"
 description: "Bulk delete old GitHub Issues by labels and date using GitHub CLI and jq."
 draft: false
 series: ["Git Tips"]
-slug: "github-cli-delete-issues-en"
+slug: "delete-issues"
 tags: ["git", "github", "cli", "jq", "automation", "cleanup"]
 title: "GitHub CLI: Bulk Delete Old Issues"
 ---

@@ -5,7 +5,7 @@ date: "2026-03-17T09:30:00+03:00"
 description: "Массовое удаление старых GitHub Issues по меткам и дате через GitHub CLI и jq."
 draft: false
 series: ["Git Tips"]
-slug: "github-cli-delete-issues"
+slug: "delete-issues"
 tags: ["git", "github", "cli", "jq", "automation", "cleanup"]
 title: "GitHub CLI: Массовое удаление старых задач"
 ---

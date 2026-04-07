@@ -5,7 +5,7 @@ date: "2026-03-17T09:30:00+03:00"
 description: "Очистка Docker Desktop на WSL2: освобождение места, оптимизация VHDX, автоматизация."
 draft: false
 series: ["Docker"]
-slug: "docker-wsl-cleanup"
+slug: "wsl-cleanup"
 tags: ["docker", "wsl", "windows", "powershell", "cleanup"]
 title: "Docker WSL: Очистка и оптимизация дисков"
 ---
