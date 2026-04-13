@@ -1,0 +1,48 @@
+{{- if .Site.Params.robots.production }}
+# 🥔 Potato Energy — robots.txt
+{{- range .Site.Params.robots.allowed_bots }}
+User-agent: {{ . }}
+{{- end }}
+Allow: /
+
+{{- range $group, $bots := .Site.Params.robots.blocked_groups }}
+User-agent: {{ delimit $bots "\nUser-agent: " }}
+Disallow: /
+{{- end }}
+
+User-agent: *scanner*
+User-agent: *scanbot*
+User-agent: *scraper*
+User-agent: *spider*
+User-agent: *crawl*
+User-agent: *bot*
+User-agent: *http*
+User-agent: *curl*
+User-agent: *wget*
+User-agent: *python*
+User-agent: *java*
+User-agent: *php*
+User-agent: *ruby*
+
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /admin/
+Disallow: /login/
+Disallow: /xmlrpc.php
+Disallow: /.git/
+Disallow: /.env
+Disallow: /backup/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*?sessionid=
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /search?*
+Disallow: /tag/*
+Disallow: /category/*?*
+{{- else }}
+User-agent: *
+Disallow: /
+{{- end }}
+
+Sitemap: {{ .Site.Params.robots.sitemap }}

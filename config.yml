@@ -7,6 +7,44 @@ defaultContentLanguage: ru
 disableKinds: [ '404' ]
 enableEmoji: true
 enableRobotsTXT: true
+robots:
+  production: true
+  allowed_bots:
+    - Googlebot
+    - Googlebot-Image
+    - Googlebot-Video
+    - Googlebot-News
+    - Bingbot
+    - Slurp
+    - DuckDuckBot
+    - Qwantify
+    - YandexBot
+    - YandexImages
+    - Twitterbot
+    - LinkedInBot
+    - WhatsApp
+    - TelegramBot
+    - Feedly
+    - Feedbin
+    - inoreader
+    - FreshRSS
+  blocked_groups:
+    seo: [AhrefsBot, Ahrefs, SemrushBot, semrush, MJ12bot, Majestic, LinkpadBot, linkdexbot, GrapeshotCrawler, MegaIndex, SISTRIX, Seopult, StatOnlineRuBot, openstat, statdom, proximic, spredbot, DomainSigma, DomainTools, OptimizationCrawler, linkfluence, Mediatoolkitbot]
+    scrapers: [Baiduspider, Baidu, BaiduBot, PetalBot, petalbot, Sogou, sogou, 360Spider, Exabot, exabot, DotBot, dotbot, Buzzbot, BuzzSumo, CCBot, CCBot/2.0, Cliqzbot, SurdotlyBot, SeznamBot, seznam, InterfaxScanBot, SputnikBot, SolomonoBot, solomono, Riddler, omgili, omgilibot, socialmediascanner, Jooblebot, Scrapy, veoozbot, Leikibot, SMUrlExpander, SNAPSHOT, getintent, ltx71, Nuzzel, SMTBot, Laserlikebot, facebookexternalhit, mfibot, crazy, Dispatch, ubermetrics, HTMLParser, musobot, filterdb, InfoSeek, SafeSearch, CommentReader, meanpathbot, postano, Embedly, NewShareCounts, Digincore, NetSeer, help.jp, PaperLiBot, getprismatic, Aport, Birubot, BLEXBot, bsalsa, Butterfly, CamontSpider, dataminr, discobot, Ezooms, FairShare, FeedFetcher, FlaxCrawler, FlightDeckReportsBot, FlipboardProxy, FyberSpider, Gigabot, gold crawler, InternetSeer, Jakarta, JS-Kit, km.ru, kmSearchBot, larbin, Linguee, LinkBot, LinkExchanger, LivelapBot, LoadImpactPageAnalyzer, lwp-trivial, MetaURI, MLBot, NerdByNature, NING, NjuiceBot, Nutch, OpenHoseBot, Panopta, pflab, pirst, PostRank, ptd-crawler, Purebot, QuerySeekerSpider, rogerbot, SearchBot, SiteBot, Soup, spbot, sugybot, Superfeedr, SurveyBot, SWeb, trendictionbot, TSearcher, ttCrawler, TurnitinBot, TweetmemeBot, UnwindFetchor, uTorrent, Voyager, WBSearchBot, woriobot, Yeti, YottosBot, Zeus, zitebot, ZmEu, DeuSu, semantic]
+    scanners: [Detectify, masscan, Kraken, zgrab]
+    http_libs: [curl, curl/, Java, Java/, Python, Python-urllib, Ruby, PHP/, PycURL, urllib, libwww, libwww-perl, Go-http-client, ApacheBench, HTTrack, Wget, Wget/, WordPress, WordPress/]
+    archives: [archive, archive.org, ia_archiver, Wayback]
+    suspicious: [Jorgee, hybrid, Faraday]
+llms:
+  title: "Potato Energy"
+  tagline: "Independent technical project. Goals: practical self-hosting guides + open knowledge in RU/EN."
+  contacts:
+    email: "ponfertato@potatoenergy.ru"
+    discord: "https://discordapp.com/users/ponfertato"
+    telegram: "https://t.me/ponfertato"
+    matrix: "https://matrix.to/#/#ponfertato:matrix.org"
+  philosophy: |
+    🥔 *«Because even space technology starts with Earth potatoes.»*
 languages:
   en:
     copyright: © 2023-2026 **[Potato Energy Team](https://potatoenergy.ru/)** · [Privacy](/privacy/) · [Terms](/terms/)
