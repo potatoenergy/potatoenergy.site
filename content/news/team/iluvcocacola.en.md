@@ -7,7 +7,7 @@ slug: "iluvcocacola"
 title: "Welcome iluvcocacola to the Team!"
 ---
 
-We are excited to announce that a new member has joined our team — **iluvcocacola**! 🎉
+We are excited to announce that a new member has joined our team - **iluvcocacola**! 🎉
 
 iluvcocacola brings fresh ideas and unique experience that will help us reach new heights in our project. We are confident that her skills and enthusiasm will be a valuable addition to our team.
 
