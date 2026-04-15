@@ -1,0 +1,15 @@
+---
+- id: redirect_title
+  translation: Перенаправление
+- id: redirect_wait
+  translation: Перенаправление через %d сек...
+- id: redirect_desc_auto
+  translation: Подождите или нажмите кнопку ниже, чтобы перейти сразу.
+- id: redirect_button_now
+  translation: Перейти сейчас
+- id: redirect_moved
+  translation: Страница перемещена.
+- id: redirect_desc_manual
+  translation: Этот контент был перемещен по новому адресу.
+- id: redirect_button
+  translation: Перейти на страницу

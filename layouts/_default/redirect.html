@@ -1,0 +1,62 @@
+{{- define "main" }} {{- $url := .Params.redirectTo | default
+.Params.canonicalURL }} {{- $delay := .Params.redirectDelay | default 3 }} {{-
+$auto := .Params.autoRedirect | default true }} {{- if not $url }} {{- errorf
+"Page '%s' is missing 'redirectTo' or 'canonicalURL'" .File.Path }} {{- end }}
+
+<header class="page-header">
+  <h1>
+    {{- (printf "%s&nbsp;" (i18n "redirect_title" | default "Redirecting")) |
+    htmlUnescape -}}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="28"
+      height="28"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+  </h1>
+
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+
+<div class="post-content">
+  {{- if $auto }}
+  <p style="color: var(--primary); font-weight: bold; margin-bottom: 0.5rem">
+    {{ printf (i18n "redirect_wait" | default "Redirecting in %ds...") $delay }}
+  </p>
+  <p style="color: var(--secondary); margin-bottom: 1.5rem">
+    {{ i18n "redirect_desc_auto" | default "Please wait..." }}
+  </p>
+
+  <a href="{{ $url }}" class="button">
+    {{ i18n "redirect_button_now" | default "Go now" }}
+  </a>
+
+  <script>
+    setTimeout(() => { window.location.replace("{{ $url | safeJS }}"); }, {{ $delay }} * 1000);
+  </script>
+  <meta http-equiv="refresh" content="{{ $delay }};url={{ $url }}" />
+
+  {{- else }}
+  <h2 style="margin-top: 0; color: var(--content)">
+    {{ i18n "redirect_title_manual" | default "Page Moved" }}
+  </h2>
+  <p style="color: var(--secondary); margin-bottom: 1.5rem">
+    {{ i18n "redirect_desc_manual" | default "This page has moved." }}
+  </p>
+
+  <a href="{{ $url }}" class="button">
+    {{ i18n "redirect_button" | default "Go to destination" }}
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}

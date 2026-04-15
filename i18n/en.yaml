@@ -1,0 +1,15 @@
+---
+- id: redirect_title
+  translation: Redirecting
+- id: redirect_wait
+  translation: Redirecting in %ds...
+- id: redirect_desc_auto
+  translation: Please wait, or click below to go immediately.
+- id: redirect_button_now
+  translation: Go now
+- id: redirect_moved
+  translation: Page moved.
+- id: redirect_desc_manual
+  translation: This content has been relocated to a new address.
+- id: redirect_button
+  translation: Go to destination
