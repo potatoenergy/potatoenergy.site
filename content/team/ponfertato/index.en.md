@@ -1,7 +1,7 @@
 ---
 aliases: ["/en/ponfertato"]
 author: ["ponfertato"]
-autoRedirect: false
+autoRedirect: true
 canonicalURL: https://ponfertato.potatoenergy.ru
 categories: ["Team"]
 comments: false

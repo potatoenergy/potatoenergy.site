@@ -1,7 +1,11 @@
-{{- define "main" }} {{- $url := .Params.redirectTo | default
-.Params.canonicalURL }} {{- $delay := .Params.redirectDelay | default 3 }} {{-
-$auto := .Params.autoRedirect | default true }} {{- if not $url }} {{- errorf
-"Page '%s' is missing 'redirectTo' or 'canonicalURL'" .File.Path }} {{- end }}
+{{- define "main" }}
+
+{{- $url := .Params.redirectTo | default .Params.canonicalURL }}
+{{- $delay := .Params.redirectDelay | default 3 }}
+{{- $auto := .Params.autoRedirect | default true }}
+{{- if not $url }}
+  {{- errorf "Page '%s' is missing 'redirectTo' or 'canonicalURL'" .File.Path }}
+{{- end }}
 
 <header class="page-header">
   <h1>
