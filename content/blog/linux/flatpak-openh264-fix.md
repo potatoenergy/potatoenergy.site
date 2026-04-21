@@ -10,8 +10,6 @@ tags: ["flatpak", "openh264", "ffmpeg", "codec", "linux", "fix"]
 title: "Flatpak: Ошибка 403 при загрузке OpenH264 - быстрое решение"
 ---
 
-## Проблема
-
 При запуске приложений через Flatpak (Discord, OBS, Firefox и др.) вы можете увидеть предупреждение:
 
 ```
