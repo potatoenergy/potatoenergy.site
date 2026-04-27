@@ -81,7 +81,7 @@ ls -l /dev/ttyUSB*  # или /dev/ttyACM*
 1. **Отключите** батарею и USB от платы
 2. Откройте [веб-флешер](https://flasher.meshtastic.org), выберите:
    - Device: `Heltec V4`
-   - Firmware: `2.7.15` (или новее стабильный)
+   - Firmware: `2.7.21` (или новее стабильный/бета)
    - Вариант: `Full erase and install`
 3. Нажмите **Erase Flash and Install**
 4. **Зажмите кнопку `PRG`** на плате
@@ -273,7 +273,7 @@ ls -l /dev/ttyUSB*  # или /dev/ttyACM*
 
 1. **Отключите** батарею и USB от платы
 2. Откройте [веб-флешер](https://flasher.meshtastic.org)
-3. Выберите device: `Heltec V4`, firmware: `2.7.13`
+3. Выберите device: `Heltec V4`, firmware: `2.7.21`
 4. Нажмите **Erase Flash and Install**
 5. **Зажмите кнопку `PRG`** на плате
 6. **Не отпуская `PRG`**, подключите USB-кабель

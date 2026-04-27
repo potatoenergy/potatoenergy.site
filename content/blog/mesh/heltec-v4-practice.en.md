@@ -81,7 +81,7 @@ ls -l /dev/ttyUSB*  # or /dev/ttyACM*
 1. **Disconnect** battery and USB from the board
 2. Open [web flasher](https://flasher.meshtastic.org), select:
    - Device: `Heltec V4`
-   - Firmware: `2.7.15` (or latest stable)
+   - Firmware: `2.7.21` (or latest stable/beta)
    - Variant: `Full erase and install`
 3. Click **Erase Flash and Install**
 4. **Hold the `PRG` button** on the board
@@ -273,7 +273,7 @@ Due to a Heltec V4 bootloader quirk, the standard order doesn't always work. Opt
 
 1. **Disconnect** battery and USB from the board
 2. Open [web flasher](https://flasher.meshtastic.org)
-3. Select device: `Heltec V4`, firmware: `2.7.13`
+3. Select device: `Heltec V4`, firmware: `2.7.21`
 4. Click **Erase Flash and Install**
 5. **Hold the `PRG` button** on the board
 6. **While holding `PRG`**, plug in the USB cable
