@@ -2,100 +2,100 @@
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["smart-home", "home-assistant", "configuration", "guide"]
 date: "2026-04-29T12:20:00+03:00"
-description: "Точная настройка домашней зоны в Home Assistant: координаты, высота, радиус. Через UI и YAML."
+description: "Precise home zone configuration in Home Assistant: coordinates, elevation, radius. Via UI and YAML."
 draft: false
 slug: "location-config"
 tags: ["home-assistant", "configuration", "gps", "zone", "yaml"]
-title: "Home Assistant: Точная настройка домашней локации"
+title: "Home Assistant: Precise Home Location Setup"
 ---
 
-Домашняя зона (`zone.home`) - основа для:
+The home zone (`zone.home`) is the foundation for:
 
-- ✅ Детекции присутствия (автоматизации «пришёл/ушёл»)
-- ✅ Расчёта времени восхода/заката (освещение, шторы)
-- ✅ Прогноза погоды (привязка к координатам)
-- ✅ Геозон для устройств и пользователей
+- ✅ Presence detection (automations for "arrived/left")
+- ✅ Sunrise/sunset calculation (lighting, blinds)
+- ✅ Weather forecasting (coordinate-based)
+- ✅ Geofencing for devices and users
 
-Неточные координаты = ложные срабатывания, неверный прогноз, сбои автоматизаций.
-
----
-
-## 🎯 Проблема стандартного мастера
-
-При первой настройке Home Assistant предлагает выбрать локацию на карте. Но:
-
-- ❌ Нет ручного ввода координат в мастере
-- ❌ Автоопределение по IP часто даёт погрешность 1–10 км
-- ❌ Высота над уровнем моря не запрашивается
-
-**Решение**: настроить точные координаты после установки, через UI или YAML.
+Inaccurate coordinates = false triggers, wrong forecasts, broken automations.
 
 ---
 
-## 🔧 Способ 1: Через UI (после установки)
+## 🎯 The Default Wizard Problem
 
-### Шаг 1: Получить точные координаты
+During initial setup, Home Assistant asks to pick a location on a map. But:
 
-Используйте устройство с GPS (телефон с приложением Home Assistant):
+- ❌ No manual coordinate input in the wizard
+- ❌ IP-based auto-detection often has 1–10 km error
+- ❌ Elevation above sea level is not requested
 
-1. Установите [официальное приложение](https://companion.home-assistant.io/)
-2. Дайте разрешение на точное местоположение
-3. Включите датчик `device_tracker.<device>` в настройках приложения
-4. Откройте **Developer Tools → States** в веб-интерфейсе
-5. Найдите сущность `device_tracker.<your_device>`
-6. Скопируйте атрибуты: `latitude`, `longitude`, `altitude`
+**Solution**: configure precise coordinates after installation, via UI or YAML.
 
-### Шаг 2: Обновить домашнюю зону
+---
+
+## 🔧 Method 1: Via UI (After Installation)
+
+### Step 1: Get Precise Coordinates
+
+Use a GPS-enabled device (phone with Home Assistant app):
+
+1. Install the [official companion app](https://companion.home-assistant.io/)
+2. Grant precise location permission
+3. Enable `device_tracker.<device>` sensor in app settings
+4. Open **Developer Tools → States** in web UI
+5. Find entity `device_tracker.<your_device>`
+6. Copy attributes: `latitude`, `longitude`, `altitude`
+
+### Step 2: Update Home Zone
 
 1. **Settings → Areas, labels & zones → Zones**
-2. Откройте `home`
-3. Вставьте координаты в поля `Latitude` / `Longitude`
-4. Сохраните
+2. Open `home`
+3. Paste coordinates into `Latitude` / `Longitude` fields
+4. Save
 
-### Шаг 3: Задать высоту
+### Step 3: Set Elevation
 
 1. **Settings → System → General**
-2. Заполните `Elevation above sea level` (в метрах)
-3. Сохраните
+2. Fill `Elevation above sea level` (in meters)
+3. Save
 
-> 💡 **Радиус зоны**: по умолчанию 100 м. Увеличьте до 200–500 м, если дом в частном секторе или есть погрешность GPS.
+> 💡 **Zone radius**: default is 100 m. Increase to 200–500 m for rural areas or if GPS has noticeable error.
 
 ---
 
-## ⚙️ Способ 2: Через YAML (для продвинутых)
+## ⚙️ Method 2: Via YAML (Advanced)
 
-Добавьте в `configuration.yaml`:
+Add to `configuration.yaml`:
 
 ```yaml
 homeassistant:
   name: Home
-  latitude: 55.7558 # ← пример, замените на свои
-  longitude: 37.6173 # ← пример, замените на свои
-  elevation: 156 # высота в метрах
-  radius: 200 # радиус зоны в метрах
+  latitude: 55.7558 # ← example, replace with yours
+  longitude: 37.6173 # ← example, replace with yours
+  elevation: 156 # elevation in meters
+  radius: 200 # zone radius in meters
   unit_system: metric
   time_zone: "Europe/Moscow"
   country: "RU"
   currency: "RUB"
 ```
 
-**Важно**:
+**Important**:
 
-- После изменения `configuration.yaml` выполните **Check Configuration** и **Restart**
-- Если координаты заданы в YAML, поля в UI станут недоступны для редактирования
+- After changing `configuration.yaml`, run **Check Configuration** and **Restart**
+- If coordinates are set in YAML, UI fields become read-only
 
 ---
 
-## 🔄 Альтернатива: действие `homeassistant.set_location`
+## 🔄 Alternative: `homeassistant.set_location` Action
 
-Для динамического обновления (например, из автоматизации):
+For dynamic updates (e.g., from automation):
 
 ```yaml
 automation:
   - alias: "Update home location"
     trigger:
       platform: time_pattern
-      minutes: "/30" # каждые 30 минут
+      minutes: "/30" # every 30 minutes
     action:
       - action: homeassistant.set_location
         data:
@@ -104,28 +104,28 @@ automation:
           elevation: "{{ states('sensor.gps_altitude') }}"
 ```
 
-> ⚠️ Используйте с осторожностью: частое обновление локации может нарушить работу автоматизаций присутствия.
+> ⚠️ Use with caution: frequent location updates may break presence automations.
 
 ---
 
-## ⚠️ Частые проблемы
+## ⚠️ Common Issues
 
 ```yaml
-# "Away" не меняется на "Home" при возвращении
-→ Проверьте радиус зоны: увеличьте до 300–500 м
-→ Убедитесь, что `device_tracker` обновляется (интервал, мин. расстояние)
+# "Away" doesn't change to "Home" on return
+→ Check zone radius: increase to 300–500 m
+→ Ensure `device_tracker` is updating (interval, min distance)
 
-# Неверное время восхода/заката
-→ Проверьте `elevation` и `time_zone` в настройках
-→ Перезагрузите интеграцию `sun`
+# Wrong sunrise/sunset time
+→ Verify `elevation` and `time_zone` in settings
+→ Reload `sun` integration
 
-# Координаты не сохраняются в UI
-→ Возможно, они заданы в `configuration.yaml` - редактируйте только там
+# Coordinates won't save in UI
+→ They may be set in `configuration.yaml` - edit only there
 ```
 
 ---
 
-## Ссылки
+## Links
 
 - 🏠 [Home Assistant Location Docs](https://www.home-assistant.io/integrations/homeassistant/#general-settings)
 - 📍 [Zone Configuration](https://www.home-assistant.io/integrations/zone/)
