@@ -211,15 +211,6 @@ Radio frequency use is regulated. Here's what to know:
 
 ---
 
-## 🗓 What's next in the series
-
-1. **Part 2: Practice** - unboxing, flashing, first messages between two nodes
-2. **Part 3: Field tests** - urban range tests, antenna tuning, power consumption
-3. **Part 4: Integrations** - Home Assistant, Telegram bridge, sensors
-4. **Part 5: Advanced** - Reticulum, custom firmware, optimization
-
----
-
 ## Links
 
 - 📡 [Meshtastic Official](https://meshtastic.org)

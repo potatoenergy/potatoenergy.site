@@ -314,15 +314,6 @@ Due to a Heltec V4 bootloader quirk, the standard order doesn't always work. Opt
 
 ---
 
-## 🗓 What's Next
-
-1. ✅ **Part 2: Practice** - unboxing, flashing, first messages (this article)
-2. 🔜 **Part 3: Field Tests** - urban range tests, antenna tuning, power consumption
-3. 🔜 **Part 4: Integrations** - Home Assistant, Telegram bridge, sensors
-4. 🔜 **Part 5: Advanced** - Reticulum, custom firmware, optimization
-
----
-
 ## 🆘 Help and Community
 
 - 🗺️ [ONEmesh Map](https://map.onemesh.ru) - network visualization
