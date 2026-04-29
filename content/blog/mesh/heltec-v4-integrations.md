@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["mesh", "home-assistant", "mqtt", "telegram", "guide"]
-date: "2026-04-29T113:35:00+03:00"
+date: "2026-04-29T13:35:00+03:00"
 description: "Meshtastic + Home Assistant + ONEmesh: интеграция через MQTT, уведомления в Telegram, мониторинг нод. Часть 3: Интеграции."
 draft: false
 series: ["Mesh Networks"]
