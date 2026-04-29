@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["mesh", "home-assistant", "mqtt", "telegram", "guide"]
-date: "2026-04-29T113:15:00+03:00"
+date: "2026-04-29T113:35:00+03:00"
 description: "Meshtastic + Home Assistant + ONEmesh: интеграция через MQTT, уведомления в Telegram, мониторинг нод. Часть 3: Интеграции."
 draft: false
 series: ["Mesh Networks"]
@@ -10,7 +10,7 @@ tags: ["meshtastic", "home-assistant", "mqtt", "telegram", "onemesh", "yaml"]
 title: "Heltec V4: Интеграции. Home Assistant, Telegram, мониторинг. Часть 3"
 ---
 
-> 📌 **Это третья часть цикла**. [Часть 1: Теория]({{< ref "/blog/mesh/heltec-v4-mesh-intro.md" >}}), [Часть 2: Практика]({{< ref "/blog/mesh/heltec-v4-practice.md >}}).
+> 📌 **Это третья часть цикла**. [Часть 1: Теория]({{< ref "/blog/mesh/heltec-v4-mesh-intro.md" >}}), [Часть 2: Практика]({{< ref "/blog/mesh/heltec-v4-practice.md" >}}).
 
 ---
 
