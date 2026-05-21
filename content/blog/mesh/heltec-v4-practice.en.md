@@ -111,19 +111,22 @@ After flashing, the board reboots and starts Meshtastic.
 > **Wi-Fi**: multiple devices can connect simultaneously (convenient for stationary nodes).  
 > **USB**: reliable for setup and debugging, no wireless connection required.
 
-### Setup via App (Recommended)
+### Setup via App (recommended)
 
-1. Install [Meshtastic](https://meshtastic.org/docs/software/android/installation/) (Android) or [iOS version](https://apps.apple.com/app/meshtastic/id1686803353)
-2. Launch, grant location and Bluetooth permissions
-3. Tap `+` → select your node (by name `Meshtastic_XXXX`)
+1. Install [Meshtastic](https://meshtastic.org/docs/software/android/installation/) (Android) or the [iOS version](https://apps.apple.com/app/meshtastic/id1586432531)
+2. Launch the app and grant location and Bluetooth permissions
+3. Go to the "Devices" tab (router icon) → select the connection type (Bluetooth, Wi-Fi, or Serial), depending on the node's mode (default is Bluetooth) → tap `🔍 Scan` or `+ Add`
 4. Confirm pairing
 
 ### Setup via Wi-Fi
 
-1. Node screen displays IP address (usually `192.168.1.x`)
-2. Connect to node's Wi-Fi network (password shown on screen)
-3. Open `http://<node_ip>` in browser
-4. Configure via web interface
+1. The node's screen will display an IP address (usually `192.168.1.x`)
+2. Connect to the node's Wi-Fi network (password shown on screen)
+3. Open a browser and go to `http://<node_IP_address>`
+4. The web interface allows viewing data (e.g. JSON messages), but **node configuration is not done here**. Use one of the following for full setup:
+   - Meshtastic mobile app
+   - MeshApp
+   - Python CLI (`meshtastic`) over USB, BLE, or Wi-Fi
 
 > 💡 **IP Address**: node gets address from your router (not `192.168.4.1`!). Exact address displayed on OLED screen.
 
