@@ -1,11 +1,11 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["nix", "linux", "vr", "hardware"]
-date: "2026-07-31T12:00:00+03:00"
+date: "2026-08-03T09:00:00+03:00"
 description: "VR setup on NixOS for Meta Quest 3S: WiVRn, WayVR, OpenComposite, and troubleshooting Steam sandbox issues."
 draft: false
 series: ["Nix/NixOS"]
-slug: "vr-wivrn-wayvr-en"
+slug: "vr-wivrn-wayvr"
 tags: ["nixos", "wivrn", "wayvr", "opencomposite", "steam", "quest3s"]
 title: "NixOS: Complete VR Stack Setup (WiVRn + WayVR)"
 ---

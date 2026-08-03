@@ -28,20 +28,6 @@ title: "Potato Energy Team"
 
 ---
 
-### iluvcocacola (Dmitry Viharev)  
-
-**Lead Developer**  
-
-- Optimization of Docker stacks  
-- Implementation of GitOps processes  
-- Support of game servers  
-- Development of monitoring systems  
-
-> *"Every line of code should be as satisfying as a sip of cola. "*
-[@iluvcocacola](mailto:iluvcocacola@potatoenergy.ru)
-
----
-
 ```bash
 # The principles of our work #
 - Weekly standups at 21:00 MSK
