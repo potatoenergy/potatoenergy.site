@@ -10,8 +10,6 @@ tags: ["android", "scrcpy", "adb", "wireless", "linux"]
 title: "Scrcpy: Wireless Mirroring and Control of Android from PC"
 ---
 
-## 🎯 What is Scrcpy and Why Use It
-
 [Scrcpy](https://github.com/Genymobile/scrcpy) (Screen Copy) is the gold standard for displaying and controlling Android devices from a computer.
 **Benefits**:
 
