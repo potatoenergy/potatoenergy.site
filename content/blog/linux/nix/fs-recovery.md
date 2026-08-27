@@ -1,7 +1,7 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["linux", "nixos", "recovery", "guide"]
-date: "2026-08-26T18:01:00+03:00"
+date: "2026-08-27T09:35:00+03:00"
 description: "Recovering a corrupted file system and Nix Store in NixOS: bypassing read-only traps and verifying store integrity."
 draft: false
 series: ["Nix/NixOS"]
