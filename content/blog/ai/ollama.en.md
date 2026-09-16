@@ -1,10 +1,10 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["ai", "ollama", "guide"]
-date: "2026-09-16T18:00:00+03:00"
+date: "2026-09-16T19:00:00+03:00"
 description: "Ollama: installation, configuration, integrations with Open WebUI and MCP. Model selection for different hardware, performance tips."
 draft: false
-series: ["AI Tools"]
+series: ["Tools"]
 slug: "ollama"
 tags: ["ollama", "llm", "ai", "open-webui", "mcp", "local-ai"]
 title: "Ollama: Local LLMs Without Pain"

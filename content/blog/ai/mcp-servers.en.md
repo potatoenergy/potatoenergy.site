@@ -1,10 +1,10 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["gpt", "ai", "automation"]
-date: "2026-09-16T18:10:00+03:00"
+date: "2026-09-16T19:10:00+03:00"
 description: "MCP (Model Context Protocol) in practice: what it is, which servers to use, how to configure on NixOS and pair with local LLMs."
 draft: false
-series: ["AI Infrastructure"]
+series: ["Infrastructure"]
 slug: "mcp-servers"
 tags: ["mcp", "ai", "automation", "nixos", "ollama", "claude", "cursor"]
 title: "MCP Servers: Complete Automation Guide with AI"

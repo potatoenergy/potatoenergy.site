@@ -1,10 +1,10 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["ai", "ollama", "guide"]
-date: "2026-09-16T18:00:00+03:00"
+date: "2026-09-16T19:00:00+03:00"
 description: "Ollama: установка, настройка, интеграции с Open WebUI и MCP. Выбор моделей под разное железо, советы по производительности."
 draft: false
-series: ["AI Tools"]
+series: ["Tools"]
 slug: "ollama"
 tags: ["ollama", "llm", "ai", "open-webui", "mcp", "local-ai"]
 title: "Ollama: Локальные нейросети без боли"

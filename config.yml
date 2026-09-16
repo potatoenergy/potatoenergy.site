@@ -13,39 +13,47 @@ languages:
     languageName: ':uk:'
     menu:
       main:
-      - name: Status
-        params:
-          external: true
-        url: https://status.potatoenergy.ru/
-        weight: 90
-      - name: Grafana
-        params:
-          external: true
-        url: https://grafana.potatoenergy.ru/
-      - name: AI
-        params:
-          external: true
-        url: https://chat.potatoenergy.ru/
-        weight: 5
-      - name: Nextcloud
-        params:
-          external: true
-        url: https://cloud.potatoenergy.ru/
-      - name: Mastodon
-        params:
-          external: true
-        url: https://social.potatoenergy.ru/
-      - name: Search
-        url: search
-        weight: 1
-      - name: Blog
-        url: blog
-        weight: 3
-      - name: Login
-        params:
-          external: true
-        url: https://auth.potatoenergy.ru/
-        weight: 99
+        - identifier: status
+          name: Status
+          params:
+            external: true
+          url: https://status.potatoenergy.ru/
+          weight: 90
+        - identifier: grafana
+          name: Grafana
+          params:
+            external: true
+          url: https://grafana.potatoenergy.ru/
+        - identifier: ai-chat
+          name: AI
+          params:
+            external: true
+          url: https://chat.potatoenergy.ru/
+          weight: 5
+        - identifier: nextcloud
+          name: Nextcloud
+          params:
+            external: true
+          url: https://cloud.potatoenergy.ru/
+        - identifier: mastodon
+          name: Mastodon
+          params:
+            external: true
+          url: https://social.potatoenergy.ru/
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 1
+        - identifier: blog
+          name: Blog
+          url: /blog/
+          weight: 3
+        - identifier: login
+          name: Login
+          params:
+            external: true
+          url: https://auth.potatoenergy.ru/
+          weight: 99
     params:
       editPost:
         Text: ✏️ Suggest Changes
@@ -53,12 +61,12 @@ languages:
         appendFilePath: true
       profileMode:
         buttons:
-        - name: Services
-          url: services
-        - name: News
-          url: news
-        - name: Team
-          url: team
+          - name: Services
+            url: services
+          - name: News
+            url: news
+          - name: Team
+            url: team
         enabled: true
         imageTitle: Potato Energy Team (Icon)
         imageUrl: img/icon.svg
@@ -101,39 +109,47 @@ languages:
     languageName: ':ru:'
     menu:
       main:
-      - name: Статус
-        params:
-          external: true
-        url: https://status.potatoenergy.ru/
-        weight: 90
-      - name: Grafana
-        params:
-          external: true
-        url: https://grafana.potatoenergy.ru/
-      - name: ИИ
-        params:
-          external: true
-        url: https://chat.potatoenergy.ru/
-        weight: 5
-      - name: Nextcloud
-        params:
-          external: true
-        url: https://cloud.potatoenergy.ru/
-      - name: Mastodon
-        params:
-          external: true
-        url: https://social.potatoenergy.ru/
-      - name: Поиск
-        url: search
-        weight: 1
-      - name: Блог
-        url: blog
-        weight: 3
-      - name: Вход
-        params:
-          external: true
-        url: https://auth.potatoenergy.ru/
-        weight: 99
+        - identifier: status
+          name: Статус
+          params:
+            external: true
+          url: https://status.potatoenergy.ru/
+          weight: 90
+        - identifier: grafana
+          name: Grafana
+          params:
+            external: true
+          url: https://grafana.potatoenergy.ru/
+        - identifier: ai-chat
+          name: ИИ
+          params:
+            external: true
+          url: https://chat.potatoenergy.ru/
+          weight: 5
+        - identifier: nextcloud
+          name: Nextcloud
+          params:
+            external: true
+          url: https://cloud.potatoenergy.ru/
+        - identifier: mastodon
+          name: Mastodon
+          params:
+            external: true
+          url: https://social.potatoenergy.ru/
+        - identifier: search
+          name: Поиск
+          url: /search/
+          weight: 1
+        - identifier: blog
+          name: Блог
+          url: /blog/
+          weight: 3
+        - identifier: login
+          name: Вход
+          params:
+            external: true
+          url: https://auth.potatoenergy.ru/
+          weight: 99
     params:
       editPost:
         Text: ✏️ Предложить изменения
@@ -141,12 +157,12 @@ languages:
         appendFilePath: true
       profileMode:
         buttons:
-        - name: Сервисы
-          url: services
-        - name: Новости
-          url: news
-        - name: Команда
-          url: team
+          - name: Сервисы
+            url: services
+          - name: Новости
+            url: news
+          - name: Команда
+            url: team
         enabled: true
         imageTitle: Potato Energy Team (Иконка)
         imageUrl: img/icon.svg
@@ -192,9 +208,9 @@ minify:
   disableXML: true
 outputs:
   home:
-  - HTML
-  - RSS
-  - JSON
+    - HTML
+    - RSS
+    - JSON
 pagination:
   pagerSize: 7
 params:
@@ -218,9 +234,9 @@ params:
   assets:
     apple_touch_icon: apple-touch-icon.png
     disableHLJS: true
+    favicon: favicon.ico
     favicon16x16: favicon-16x16.png
     favicon32x32: favicon-32x32.png
-    favicon: favicon.ico
     webmanifest: site.webmanifest
   author: [ "Potato Energy" ]
   commentSystems:
