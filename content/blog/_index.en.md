@@ -8,10 +8,10 @@ title: "Potato Energy Tech Blog"
 **Main topics**
 
 ```bash
+#ai        → AI in infrastructure: smart assistants, automation, experiments
 #android   → Android without the bloat: Shizuku, Obtainium, OS fixes, automation
 #docker    → Containers that don't fall apart: orchestration, backups, optimization
 #git       → Version control without lumps: from submodules to GitHub CLI
-#gpt       → AI in infrastructure: smart assistants, automation, experiments
 #linux     → Systems that just work: NixOS, ARM, recovery, fine-tuning
 #mesh      → Own network without Internet: LoRa, Meshtastic, Reticulum, privacy
 #openwrt   → Routers with character: filtering, WireGuard, monitoring

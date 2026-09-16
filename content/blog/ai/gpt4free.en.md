@@ -8,6 +8,8 @@ series: ["GPT4Free"]
 slug: "gpt4free"
 tags: ["git", "gpt", "python", "typescript", "api", "docker"]
 title: "GPT4Free in 2026: A complete guide to free access to GPT-5, DeepSeek and Gemini"
+aliases:
+  - /blog/gpt/gpt4free/
 ---
 
 GPT4Free (g4f) is a free tool that gives you access to powerful AI models: GPT-4/5, Claude, Gemini, DeepSeek. It works by reverse-engineering public APIs.

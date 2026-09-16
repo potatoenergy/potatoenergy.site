@@ -8,6 +8,8 @@ series: ["GPT4Free"]
 slug: "gpt4free"
 tags: ["git", "gpt", "python", "typescript", "api", "docker"]
 title: "GPT4Free в 2026: Полный гайд по бесплатному доступу к GPT-5, DeepSeek и Gemini"
+aliases:
+  - /blog/gpt/gpt4free/
 ---
 
 GPT4Free (g4f) - бесплатный инструмент, который даёт доступ к мощным нейросетям: GPT-4/5, Claude, Gemini, DeepSeek. Работает через обратную инженерию публичных интерфейсов.
