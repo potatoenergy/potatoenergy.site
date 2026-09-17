@@ -6,26 +6,26 @@ slug: "error-pages"
 title: "Error-Pages: Custom Error Pages"
 ---
 
-### Error-Pages: Custom error pages [🚨](https://github.com/tarampampam/error-pages)
+### Error-Pages: Custom Error Pages [🚨](https://github.com/tarampampam/error-pages)
 
-**Friendly messages** instead of the standard "404 Not Found".
+**Custom pages** instead of the standard "404 Not Found".
 
-**What does:**
+**Functions:**
 
-- 🎨 Stylish pages for 4xx/5xx errors in a single Potato Energy brand
+- 🎨 Pages for 4xx/5xx errors in a unified Potato Energy style
 - 🌍 Automatic language detection and dark/light theme
-- 🔧 Useful tips: "check the URL", "go back to the main page", "write to support"
+- 🔧 Tips: "check the URL", "go back to the main page", "contact support"
 - 📊 Error logging for administrators
-- ⚡ Lightweight static pages - load even in case of backend failures
+- ⚡ Static pages - load even during backend failures
 
 **How it works:**
 
-1. If there is an access error, Nginx/Traefik redirects to a custom page.
-2. You see a clear message with options for action.
+1. On access error, Nginx/Traefik redirects to a custom page
+2. A message with action options is displayed
 3. The administrator receives notification of critical failures
 
 **For administrators:**
-Flexible customization of texts, redirects, and styles through a single configuration.
+Customization of texts, redirects, and styles through a single configuration.
 
 **Access:**
-automatically • triggered in case of errors
+automatically • triggered on errors

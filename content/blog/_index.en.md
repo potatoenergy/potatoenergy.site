@@ -1,27 +1,21 @@
 ---
-description: "Technical notes and dev cases from the project"
+description: "Technical guides and infrastructure breakdowns from Potato Energy"
 title: "Potato Energy Tech Blog"
 ---
 
-### From the depths of the potato core 🥔⚙️
+### Technical guides from the project
 
-**Main topics**
+Practical materials on deploying, configuring, and maintaining Potato Energy infrastructure. Based on real operational experience, not theoretical examples.
 
-```bash
-#ai        → AI in infrastructure: smart assistants, automation, experiments
-#android   → Android without the bloat: Shizuku, Obtainium, OS fixes, automation
-#docker    → Containers that don't fall apart: orchestration, backups, optimization
-#git       → Version control without lumps: from submodules to GitHub CLI
-#linux     → Systems that just work: NixOS, ARM, recovery, fine-tuning
-#mesh      → Own network without Internet: LoRa, Meshtastic, Reticulum, privacy
-#openwrt   → Routers with character: filtering, WireGuard, monitoring
-#windows   → Hybrid solutions: WSL, OpenSSH, ecosystem integration
-```
+**Sections**
 
----
-
-> 🥔 _A potato is not just a vegetable. It's a state of mind.  
-> And good code is not just work. It's art._
+- 🖥 **Infrastructure** - Docker, OpenWrt, ARM servers
+- 🤖 **AI** - local LLMs, MCP, automation
+- 🏠 **Smart Home** - Home Assistant, Meshtastic
+- 🛠 **Development** - Git and developer tools
+- 🐧 **Linux** - NixOS, gaming, apps
+- 🪟 **Windows** - WSL, OpenSSH
+- 📱 **Android** - Shizuku, Obtainium, HyperOS
 
 > **Follow us:**
 > [Discord](https://discord.gg/GH4PbUfzXR) | [Telegram](https://t.me/potatoenergy) | [Matrix](https://matrix.to/#/#potatoenergy:matrix.org) | [Steam](https://steamcommunity.com/groups/potatoenergy) | [RSS](/index.xml)

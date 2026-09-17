@@ -3,29 +3,29 @@ author: ["Potato Energy Team", "ponfertato"]
 categories: ["Security", "Infrastructure"]
 description: "Centralized authentication and authorization system"
 slug: "authelia"
-title: "Authelia: Protection of Digital Space"
+title: "Authelia: Authentication and Authorization"
 ---
 
-### Authelia: Access protection [🔒](https://www.authelia.com/)
+### Authelia: Authentication and Authorization [🔒](https://www.authelia.com/)
 
 **Single sign-on** to all Potato Energy services with enterprise-level protection.
 
-**What does:**
+**Functions:**
 
-- 🔐 A single account for all services - no need to remember passwords anymore
+- 🔐 A single account for all services
 - 📱 Two-factor authentication (TOTP, WebAuthn, push notifications)
 - 🎯 Flexible access policies: by user, IP, device
 - 🛡️ Protection against brute force and suspicious inputs
 - 📋 Detailed logs of authorizations for administrators
 
-**How to use:**
+**Usage:**
 
 1. When logging into any service for the first time, create an Authelia account
 2. Set up 2FA in your personal account (recommended)
-3. Log in to the services with one click - general authorization
+3. Log in to services with one click - general authorization
 
 **For administrators:**
-Rights management, forced 2FA, session auditing - all in a single dashboard.
+Rights management, forced 2FA, session auditing - in a single panel.
 
 **Access:**
 automatically upon registration

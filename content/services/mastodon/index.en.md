@@ -3,29 +3,29 @@ author: ["Potato Energy Team", "ponfertato"]
 categories: ["Social Network", "Federation"]
 description: "Decentralized social platform based on ActivityPub"
 slug: "mastodon"
-title: "Mastodon: Your Federated Space"
+title: "Mastodon: Federated Social Network"
 ---
 
-### Mastodon: Your federated space [🌐](https://joinmastodon.org/)
+### Mastodon: Federated Social Network [🌐](https://joinmastodon.org/)
 
-**An uncensored social network** where you own your data.
+**Decentralized social network** with local data storage.
 
-**What does:**
+**Functions:**
 
 - 📝 Publishing posts, threads, images, and videos without an algorithmic feed
 - 🌍 Federation via ActivityPub: communication with Mastodon, Pixelfed, and PeerTube users
 - 🔒 Flexible privacy: subscriber-only posts, local messages, CW tags
 - 🎨 Custom emojis, design themes, and content moderation
-- 🛡️ Local moderation and spam blocking - you control your space
+- 🛡️ Local moderation and spam blocking
 
 **How to join:**
 
 1. Go to [social.potatoenergy.ru](https://social.potatoenergy.ru/)
 2. Log in with your Potato Energy account (via Authelia)
-3. Set up a profile and start publishing - you are already in the federation
+3. Set up a profile and start publishing - the account is immediately active in the federation
 
 **For moderators:**
-Tools for reporting, silencing/blocking, and federal rules are all in the admin panel.
+Tools for reporting, silencing/blocking, and federal rules - all in the admin panel.
 
 **Status:**
 https://status.potatoenergy.ru/history/mastodon

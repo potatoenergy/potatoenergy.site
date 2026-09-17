@@ -3,30 +3,30 @@ author: ["Potato Energy Team", "ponfertato"]
 categories: ["Gaming", "Sandboxes"]
 description: "Cooperative Terraria server for adventure and construction"
 slug: "terraria-server"
-title: "Terraria: Adventures on potato Energy"
+title: "Terraria: Game Server"
 ---
 
-### Terraria: Adventures [⚔️](https://terraria.org /)
+### Terraria: Game Server [⚔️](https://terraria.org/)
 
-**Cooperative server** for exploration, battles and creativity.
+**Cooperative server** for exploration, battles, and construction.
 
 **What's on the server:**
 
-- 🌍 Classic mode + expert events for experienced players
-- ⚔️ PvE co-op: bosses, events, dungeons - more fun together
+- 🌍 Classic mode and expert events for experienced players
+- ⚔️ PvE co-op: bosses, events, dungeons
 - 🏗️ Shared world with private buildings (TShock plugin)
-- 🔄 World auto backups every 30 minutes - progress in safety
-- 💬 Chat + Discord-sync: communicate in the game and from the browser
+- 🔄 World auto backups every 30 minutes
+- 💬 Chat and Discord synchronization
 
 **How to connect:**
 
 1. Launch the current version of Terraria
 2. Open "Multiplayer" → "Join via IP"
 3. Enter the address: `connect.potatoenergy.ru:7777`
-4. Connect and start the adventure!
+4. Connect
 
 **Rules:**
-No cheating, respect other people's buildings, don't spam the chat. The details are on the server.
+No cheating, respect other people's buildings, don't spam the chat. Details are on the server.
 
 **Status:**
 https://status.potatoenergy.ru/history/terraria

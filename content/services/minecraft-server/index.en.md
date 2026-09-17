@@ -1,32 +1,32 @@
 ---
 author: ["Potato Energy Team", "ponfertato"]
 categories: ["Gaming", "Sandboxes"]
-description: "High-performance game server with intelligent monitoring"
+description: "High-performance game server with monitoring"
 slug: "minecraft-server"
-title: "Minecraft: Boundless World of Potato Energy"
+title: "Minecraft: Game Server"
 ---
 
-### Minecraft: Limitless World [🎮](https://minecraft.net/)
+### Minecraft: Game Server [🎮](https://minecraft.net/)
 
-**A sandbox for creativity** and shared adventures on Potato Energy.
+**Sandbox** for building and shared adventures on Potato Energy.
 
 **What's on the server:**
 
-- ⚡ High-performance engine (Paper) - without lags, even with redstone circuits
-- 🔄 World auto backups every 30 minutes - progress in safety
-- 💬 Chat synchronization with Discord: communicate in the game and from the browser
-- 🛡️ Anti - cheat - protection against griefers and cheaters
-- 🧩 Plug-ins for the quality of life: teleports, private territories, economy
+- ⚡ High-performance engine (Paper) - stable operation with redstone circuits
+- 🔄 World auto backups every 30 minutes
+- 💬 Chat synchronization with Discord
+- 🛡️ Anti-cheat - protection against griefers and cheaters
+- 🧩 Plugins: teleports, private territories, economy
 
 **How to connect:**
 
 1. Launch Minecraft version `1.16.5`
 2. Open "Network Game" → "Add Server"
 3. Enter the address: `connect.potatoenergy.ru:25565`
-4. Connect and explore!
+4. Connect
 
 **Rules:**
-No cheating, respect other people's buildings, and coordinate in the chat. The details are on the server.
+No cheating, respect other people's buildings, coordinate in the chat. Details are on the server.
 
 **Status:**
 https://status.potatoenergy.ru/history/minecraft
